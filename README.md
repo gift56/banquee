@@ -51,20 +51,22 @@ Before setting up the server, ensure you have the following installed:
    git clone https://github.com/gift56/banquee
    cd repo/server
 
-2. Install dependencies: 
-  npm install
+   ```
+
+2. Install dependencies:
+   npm install
 
 3. Configure the server:
 
- PORT=8080
- MONGODB_URI=mongodb://localhost/bank
- JWT_SECRET=your-secret-key
+PORT=8080
+MONGODB_URI=mongodb://localhost/bank
+JWT_SECRET=your-secret-key
 
 4. Start the server:
-  npm run dev
-
+   npm run dev
 
 ### API Endpoints
+
 - POST /api/auth/register: Register a new user.
 - POST /api/auth/login: Log in a user.
 - GET /api/accounts: Get a list of user accounts.
@@ -76,8 +78,19 @@ Before setting up the server, ensure you have the following installed:
 - POST /api/transactions: Perform a transaction (transfer, deposit, withdraw).
 
 ## Client
-  Prerequisites
-  Before setting up the client, make sure you have Node.js and npm installed.
+
+Prerequisites
+Before setting up the client, make sure you have Node.js and npm installed.
 
 ### Setup
- Navigate to the client folder:
+
+1. Navigate to the client folder:
+   cd ../client
+
+2. Install dependencies:
+   npm install
+
+3. Start the client:
+    npm run dev
+
+
