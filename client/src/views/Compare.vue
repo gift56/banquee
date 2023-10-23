@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <div>Compare</div>
 </template>
 
 <script>
