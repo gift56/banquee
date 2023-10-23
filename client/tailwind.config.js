@@ -12,6 +12,9 @@ module.exports = {
       fontFamily: {
         dm: "'DM Sans', sans-serif",
       },
+      screens: {
+        tab: "948px",
+      },
     },
   },
   plugins: [],
