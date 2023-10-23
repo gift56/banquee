@@ -36,7 +36,7 @@ const router = createRouter({
     {
       path: "/blog/blogId",
       name: "blog_detial",
-      component: Blog,
+      component: BlogView,
     },
   ],
 });
