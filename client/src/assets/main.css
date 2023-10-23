@@ -10,3 +10,15 @@
 .container {
   @apply w-[80%] tab:max-w-[1250px] mx-auto;
 }
+
+.headingtext{
+    @apply text-2xl text-dark font-dm md:text-4xl tab:text-6xl xl:text-7xl font-medium
+}
+
+.headingtext2 {
+    @apply text-2xl text-dark font-dm md:text-4xl tab:text-6xl font-medium
+}
+
+.card{
+    @apply w-full border-2 border-bordergray rounded-2xl p-6 tab:p-8 flex flex-col items-start justify-start gap-4
+}
