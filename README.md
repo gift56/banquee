@@ -74,3 +74,10 @@ Before setting up the server, ensure you have the following installed:
 - DELETE /api/accounts/:id: Delete an account.
 - GET /api/transactions: Get all transactions for a user.
 - POST /api/transactions: Perform a transaction (transfer, deposit, withdraw).
+
+## Client
+  Prerequisites
+  Before setting up the client, make sure you have Node.js and npm installed.
+
+### Setup
+ Navigate to the client folder:
