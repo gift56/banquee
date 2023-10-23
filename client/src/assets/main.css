@@ -8,5 +8,5 @@
 }
 
 .container {
-    @apply 
+  @apply w-[80%] tab:max-w-[1250px] mx-auto;
 }
