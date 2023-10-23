@@ -1,9 +1,9 @@
 <template>
-  <div>Compare</div>
+  <div>Support</div>
 </template>
 
 <script>
 export default {
-  name: "Compare",
+  name: "SupportView",
 };
 </script>

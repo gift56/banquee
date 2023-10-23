@@ -1,9 +1,9 @@
 <template>
-  <div>Support</div>
+  <div>Fetaure</div>
 </template>
 
 <script>
 export default {
-  name: "Support",
+  name: "FeatureView",
 };
 </script>
