@@ -294,19 +294,19 @@ export const footerLinks = [
     ],
   },
   {
-    title: "About",
+    title: "Blog",
     footerLinks: [
       {
         href: "/",
-        text: "Features",
+        text: "Products",
       },
       {
         href: "/",
-        text: "Pricing",
+        text: "Technology",
       },
       {
         href: "/",
-        text: "Support",
+        text: "Crypto",
       },
     ],
   },
