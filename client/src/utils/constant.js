@@ -293,4 +293,55 @@ export const footerLinks = [
       },
     ],
   },
+  {
+    title: "About",
+    footerLinks: [
+      {
+        href: "/",
+        text: "Features",
+      },
+      {
+        href: "/",
+        text: "Pricing",
+      },
+      {
+        href: "/",
+        text: "Support",
+      },
+    ],
+  },
+  {
+    title: "About",
+    footerLinks: [
+      {
+        href: "/",
+        text: "Features",
+      },
+      {
+        href: "/",
+        text: "Pricing",
+      },
+      {
+        href: "/",
+        text: "Support",
+      },
+    ],
+  },
+  {
+    title: "Social Media",
+    footerLinks: [
+      {
+        href: "/",
+        text: "Twitter",
+      },
+      {
+        href: "/",
+        text: "Facebook",
+      },
+      {
+        href: "/",
+        text: "Instagram",
+      },
+    ],
+  },
 ];
