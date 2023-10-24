@@ -50,3 +50,48 @@ export const bankingFeature = [
       "Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis.",
   },
 ];
+
+export const receiveFeature = [
+  "Malesuada Ipsum",
+  "Vestibulum",
+  "Parturient Lorem",
+];
+
+export const receiveData = [
+  {
+    icon: "",
+    productBrand: "Apple",
+    product: "Macbook",
+    price: "-999€",
+  },
+  {
+    icon: "",
+    productBrand: "Amazon",
+    product: "Electronics",
+    price: "-29€",
+  },
+  {
+    icon: "",
+    productBrand: "Twitter",
+    product: "Ads",
+    price: "-29€",
+  },
+  {
+    icon: "",
+    productBrand: "Microsoft",
+    product: "Office Suite",
+    price: "-149€",
+  },
+  {
+    icon: "",
+    productBrand: "Dropbox",
+    product: "Cloud",
+    price: "-14€",
+  },
+  {
+    icon: "",
+    productBrand: "Paypal",
+    product: "Shopping",
+    price: "-200€",
+  },
+];
