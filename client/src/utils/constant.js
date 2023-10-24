@@ -165,29 +165,29 @@ export const testimonyData = [
   },
   {
     starTotal: 5,
-    headline: "Sunt qui esse pariatur duis deserunt mollit",
+    headline: "At lectus urna duis convallis tellus",
     detail:
-      "Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. In nibh mauris cursus mattis.",
     authorDetail: {
-      name: "Cody Fisher",
+      name: "Jenny Wilson",
       title: "Medical Assistant",
+    },
+  },
+  {
+    starTotal: 5,
+    headline: "Elit aute irure tempor cupidatat incididunt",
+    detail:
+      "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.",
+    authorDetail: {
+      name: "Guy Hawkins",
+      title: "President of Sales",
     },
   },
   {
     starTotal: 5,
     headline: "Sunt qui esse pariatur duis deserunt mollit",
     detail:
-      "Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum.",
-    authorDetail: {
-      name: "Cody Fisher",
-      title: "Medical Assistant",
-    },
-  },
-  {
-    starTotal: 5,
-    headline: "Sunt qui esse pariatur duis deserunt mollit ",
-    detail:
-      "Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum.",
+      "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.",
     authorDetail: {
       name: "Cody Fisher",
       title: "Medical Assistant",
