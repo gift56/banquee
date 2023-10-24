@@ -311,19 +311,19 @@ export const footerLinks = [
     ],
   },
   {
-    title: "About",
+    title: "Webflow",
     footerLinks: [
       {
         href: "/",
-        text: "Features",
+        text: "Styleguide",
       },
       {
         href: "/",
-        text: "Pricing",
+        text: "Licensing",
       },
       {
         href: "/",
-        text: "Support",
+        text: "Changelog",
       },
     ],
   },
