@@ -112,8 +112,8 @@ export const organizeFeature = [
     price: "$400",
   },
   {
-    featureImage: featureImage1,
-    product: "New Laptop",
+    featureImage: featureImage3,
+    product: "Holiday",
     price: "$400",
   },
   {
