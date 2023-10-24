@@ -259,4 +259,18 @@ export const blogData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.",
     cat: ["Product", "Technology"],
   },
+  {
+    blogImage: blogImage2,
+    blogHeadline: "10 Things Nobody Told You About Banko",
+    detail:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.",
+    cat: ["Product", "Technology"],
+  },
+  {
+    blogImage: blogImage3,
+    blogHeadline: "7 Ways To Improve You Saving Habits",
+    detail:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.",
+    cat: ["Product", "Technology"],
+  },
 ];
