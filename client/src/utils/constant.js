@@ -274,3 +274,23 @@ export const blogData = [
     cat: ["Product", "Technology"],
   },
 ];
+
+export const footerLinks = [
+  {
+    title: "About",
+    footerLinks: [
+      {
+        href: "/",
+        text: "Features",
+      },
+      {
+        href: "/",
+        text: "Features",
+      },
+      {
+        href: "/",
+        text: "Features",
+      },
+    ],
+  },
+];
