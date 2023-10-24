@@ -18,6 +18,9 @@ import partnerImage7 from "../assets/icons/partnerIcon7.svg";
 import partnerImage8 from "../assets/icons/partnerIcon8.svg";
 import partnerImage9 from "../assets/icons/partnerIcon9.svg";
 import partnerImage10 from "../assets/icons/partnerIcon10.svg";
+import blogImage1 from "../assets/images/blogImage1.png";
+import blogImage2 from "../assets/images/blogImage2.png";
+import blogImage3 from "../assets/images/blogImage3.png";
 
 export const heroFeatures = [
   "Instant Transfer",
@@ -245,5 +248,12 @@ export const faqData = [
     question: "Can I have two Banko accounts?",
     answer:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
+  },
+];
+
+export const blogData = [
+  {
+    blogImage: blogImage1,
+    blogHeadline: "How To Start Using Banko For Your Startup",
   },
 ];
