@@ -151,3 +151,7 @@ export const integrationFeature = [
   "Fully API interface",
   "Payments worldwide",
 ];
+
+export const testimonyData = [{
+    
+}];
