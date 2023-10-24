@@ -255,5 +255,8 @@ export const blogData = [
   {
     blogImage: blogImage1,
     blogHeadline: "How To Start Using Banko For Your Startup",
+    detail:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.",
+    cat: ["Product", "Technology"],
   },
 ];
