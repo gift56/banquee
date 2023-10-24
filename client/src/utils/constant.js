@@ -152,6 +152,65 @@ export const integrationFeature = [
   "Payments worldwide",
 ];
 
-export const testimonyData = [{
-    
-}];
+export const testimonyData = [
+  {
+    starTotal: 5,
+    headline: "Sunt qui esse pariatur duis deserunt mollit",
+    detail:
+      "Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum.",
+    authorDetail: {
+      name: "Cody Fisher",
+      title: "Medical Assistant",
+    },
+  },
+  {
+    starTotal: 5,
+    headline: "Sunt qui esse pariatur duis deserunt mollit",
+    detail:
+      "Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum.",
+    authorDetail: {
+      name: "Cody Fisher",
+      title: "Medical Assistant",
+    },
+  },
+  {
+    starTotal: 5,
+    headline: "Sunt qui esse pariatur duis deserunt mollit",
+    detail:
+      "Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum.",
+    authorDetail: {
+      name: "Cody Fisher",
+      title: "Medical Assistant",
+    },
+  },
+  {
+    starTotal: 5,
+    headline: "Sunt qui esse pariatur duis deserunt mollit",
+    detail:
+      "Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum.",
+    authorDetail: {
+      name: "Cody Fisher",
+      title: "Medical Assistant",
+    },
+  },
+  {
+    starTotal: 5,
+    headline: "Donec et fringilla neque",
+    detail:
+      "Etiam accumsan porta neque in viverra. Proin eleifend, eros in tristique hendrerit, nisi purus cursus sapien, id ultrices nunc tellus a ipsum. Donec et fringilla neque. Aenean consequat purus quis lectus maximus fermentum.",
+    authorDetail: {
+      name: "Darlene Robertson",
+      title: "Medical Assistant",
+    },
+  },
+  {
+    starTotal: 5,
+    headline: "Etiam accumsan porta neque eros",
+    detail:
+      "Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum. ",
+    authorDetail: {
+      name: "Dianne Russell",
+      title: "Medical Assistant",
+    },
+  },
+];
