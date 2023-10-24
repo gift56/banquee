@@ -145,3 +145,9 @@ export const clientsImages = [
   partnerImage9,
   partnerImage10,
 ];
+
+export const integrationFeature = [
+  "Secure and encrypted integration",
+  "Fully API interface",
+  "Payments worldwide",
+];
