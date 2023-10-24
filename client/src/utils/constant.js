@@ -133,4 +133,15 @@ export const organizeFeature = [
   },
 ];
 
-export const clientsImages = [];
+export const clientsImages = [
+  partnerImage1,
+  partnerImage2,
+  partnerImage3,
+  partnerImage4,
+  partnerImage5,
+  partnerImage6,
+  partnerImage7,
+  partnerImage8,
+  partnerImage9,
+  partnerImage10,
+];
