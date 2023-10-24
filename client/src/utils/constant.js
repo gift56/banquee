@@ -4,6 +4,10 @@ import appIcon3 from "../assets/icons/appIcon3.svg";
 import appIcon4 from "../assets/icons/appIcon4.svg";
 import appIcon5 from "../assets/icons/appIcon5.svg";
 import appIcon6 from "../assets/icons/appIcon6.svg";
+import featureImage1 from "../assets/icons/feature1Icon.svg";
+import featureImage2 from "../assets/icons/feature2Icon.svg";
+import featureImage3 from "../assets/icons/feature3Icon.svg";
+import featureImage4 from "../assets/icons/feature4Icon.svg";
 
 export const heroFeatures = [
   "Instant Transfer",
@@ -93,5 +97,28 @@ export const receiveData = [
     productBrand: "Paypal",
     product: "Shopping",
     price: "-200€",
+  },
+];
+
+export const organizeFeature = [
+  {
+    featureImage: featureImage1,
+    product: "New Laptop",
+    price: "$400",
+  },
+  {
+    featureImage: featureImage1,
+    product: "New Laptop",
+    price: "$400",
+  },
+  {
+    featureImage: featureImage1,
+    product: "New Laptop",
+    price: "$400",
+  },
+  {
+    featureImage: featureImage4,
+    product: "Camera",
+    price: "$100",
   },
 ];
