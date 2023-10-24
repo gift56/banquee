@@ -8,6 +8,16 @@ import featureImage1 from "../assets/icons/feature1Icon.svg";
 import featureImage2 from "../assets/icons/feature2Icon.svg";
 import featureImage3 from "../assets/icons/feature3Icon.svg";
 import featureImage4 from "../assets/icons/feature4Icon.svg";
+import partnerImage1 from "../assets/icons/partnerIcon1.svg";
+import partnerImage2 from "../assets/icons/partnerIcon2.svg";
+import partnerImage3 from "../assets/icons/partnerIcon3.svg";
+import partnerImage4 from "../assets/icons/partnerIcon4.svg";
+import partnerImage5 from "../assets/icons/partnerIcon5.svg";
+import partnerImage6 from "../assets/icons/partnerIcon6.svg";
+import partnerImage7 from "../assets/icons/partnerIcon7.svg";
+import partnerImage8 from "../assets/icons/partnerIcon8.svg";
+import partnerImage9 from "../assets/icons/partnerIcon9.svg";
+import partnerImage10 from "../assets/icons/partnerIcon10.svg";
 
 export const heroFeatures = [
   "Instant Transfer",
@@ -122,3 +132,5 @@ export const organizeFeature = [
     price: "$100",
   },
 ];
+
+export const clientsImages = [];
