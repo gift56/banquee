@@ -185,7 +185,7 @@ export const testimonyData = [
   },
   {
     starTotal: 5,
-    headline: "Sunt qui esse pariatur duis deserunt mollit",
+    headline: "Sunt qui esse pariatur duis deserunt mollit ",
     detail:
       "Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum.",
     authorDetail: {
@@ -200,7 +200,7 @@ export const testimonyData = [
       "Etiam accumsan porta neque in viverra. Proin eleifend, eros in tristique hendrerit, nisi purus cursus sapien, id ultrices nunc tellus a ipsum. Donec et fringilla neque. Aenean consequat purus quis lectus maximus fermentum.",
     authorDetail: {
       name: "Darlene Robertson",
-      title: "Medical Assistant",
+      title: "Dog Trainer",
     },
   },
   {
