@@ -12,8 +12,12 @@
             eiusmod tempor incididunt ut labore.
           </p>
           <div class="w-full grid grid-cols-2 gap-4 items-start justify-start">
-            <div v-for="feature in heroFeatures" :key="feature" class="flex items-center justify-start gap-3">
-              
+            <div
+              v-for="feature in heroFeatures"
+              :key="feature"
+              class="flex items-center justify-start gap-3"
+            >
+              <img src="../../assets/icons/badgeIcon.svg" alt="icon" />
             </div>
           </div>
           <div></div>
@@ -27,4 +31,6 @@
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import { heroFeatures } from "../../utils/constant";
+</script>

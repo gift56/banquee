@@ -9,20 +9,18 @@ import featureImage2 from "../assets/icons/feature2Icon.svg";
 import featureImage3 from "../assets/icons/feature3Icon.svg";
 import featureImage4 from "../assets/icons/feature4Icon.svg";
 import partnerImage1 from "../assets/icons/partnerIcon1.svg";
-import partnerImage2 from "../assets/icons/partnerIcon2.svg";
-import partnerImage3 from "../assets/icons/partnerIcon3.svg";
-import partnerImage4 from "../assets/icons/partnerIcon4.svg";
-import partnerImage5 from "../assets/icons/partnerIcon5.svg";
-import partnerImage6 from "../assets/icons/partnerIcon6.svg";
-import partnerImage7 from "../assets/icons/partnerIcon7.svg";
-import partnerImage8 from "../assets/icons/partnerIcon8.svg";
-import partnerImage9 from "../assets/icons/partnerIcon9.svg";
-import partnerImage10 from "../assets/icons/partnerIcon10.svg";
+import partnerImage2 from "../assets/icons/partner2Icon.svg";
+import partnerImage3 from "../assets/icons/partner3Icon.svg";
+import partnerImage4 from "../assets/icons/partner4Icon.svg";
+import partnerImage5 from "../assets/icons/partner5Icon.svg";
+import partnerImage6 from "../assets/icons/partner6Icon.svg";
+import partnerImage7 from "../assets/icons/partner7Icon.svg";
+import partnerImage8 from "../assets/icons/partner8Icon.svg";
+import partnerImage9 from "../assets/icons/partner9Icon.svg";
+import partnerImage10 from "../assets/icons/partner10Icon.svg";
 import blogImage1 from "../assets/images/blogImage1.png";
 import blogImage2 from "../assets/images/blogImage2.png";
 import blogImage3 from "../assets/images/blogImage3.png";
-
-
 
 export const heroFeatures = [
   "Instant Transfer",
