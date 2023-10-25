@@ -1,3 +1,9 @@
+<script setup>
+import Hero from "../components/LandingpageComponent/Hero.vue";
+</script>
+
 <template>
-  <main></main>
+  <main>
+    <Hero />
+  </main>
 </template>
