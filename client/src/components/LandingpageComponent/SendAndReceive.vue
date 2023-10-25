@@ -27,11 +27,16 @@
             v-for="product in receiveData"
             class="max-w-full w-full tab:max-w-[80%] tab:w-[80%] py-2 px-4 bg-white rounded-[10px] flex items-center justify-between gap-5"
           >
-            <span
-              class="w-12 h-12 rounded-lg bg-primary text-white text-2xl flex items-center justify-center"
-            >
-              <i :class="product.icon"></i>
-            </span>
+            <div class="flex items-start justify-start gap-4">
+              <span
+                class="w-12 h-12 rounded-lg bg-primary text-white text-2xl flex items-center justify-center"
+              >
+                <i :class="product.icon"></i>
+              </span>
+              <div class="flex flex-col items-start justify-start gap-2">
+                <h4 class="font-dm text-medium text-base md:text-lg text-dark">{{ product.productBrand }}</h4>
+              </div>
+            </div>
           </div>
         </div>
       </div>
