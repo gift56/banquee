@@ -12,7 +12,7 @@
 }
 
 .headerNav {
-  @apply px-10 py-4 tab:px-20 w-full flex items-center justify-between gap-6;
+  @apply px-5 py-4 tab:px-20 w-full flex items-center justify-between gap-6;
 }
 .navLink {
   @apply hidden tab:flex items-center justify-start gap-6;

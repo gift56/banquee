@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted, onUnmounted } from "vue";
 import { RouterLink } from "vue-router";
 
 const isMenuOpen = ref(false);
@@ -7,6 +7,23 @@ const isMenuOpen = ref(false);
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value;
 };
+
+const closeMenuOnOutsideClick = (event) => {
+  if (isMenuOpen.value && !menuRef.contains(event.target)) {
+    isMenuOpen.value = false;
+  }
+};
+
+const menuRef = ref(null);
+
+onMounted(() => {
+  window.addEventListener("click", closeMenuOnOutsideClick);
+});
+
+// Clean up the event listener when the component is unmounted
+onUnmounted(() => {
+  window.removeEventListener("click", closeMenuOnOutsideClick);
+});
 
 const navLinks = [
   {
@@ -59,10 +76,9 @@ const navLinks = [
           </button>
         </RouterLink>
       </div>
-      <span @click="toggleMenu" class="tab:hidden">
-        Bar
+      <span @click="toggleMenu" v-if="!isMenuOpen" class="tab:hidden text-2xl">
+        <i class="fa-solid fa-bars"></i>
       </span>
-      <div></div>
     </nav>
   </header>
 </template>
