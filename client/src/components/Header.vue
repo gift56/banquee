@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import { RouterLink } from "vue-router";
-
+import { CoHamburgerMenu } from "oh-vue-icons/icons";
 const showNav = ref(false);
 
 const navLinks = [
@@ -55,6 +55,9 @@ const navLinks = [
           </button>
         </RouterLink>
       </div>
+      <span class="tab:hidden">
+        <CoHamburgerMenu />
+      </span>
     </nav>
   </header>
 </template>
