@@ -8,6 +8,19 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et.
           </p>
+          <div class="flex flex-col items-start justify-start gap-5">
+            <div
+              v-for="feature in receiveFeature"
+              :key="feature"
+              class="flex items-center justify-start gap-3 w-full"
+            >
+              <img src="../../assets/icons/checkIcon.svg" alt="checkIcon" />
+              <span
+                class="text-sm md:text-base font-medium text-dark tab:text-lg"
+                >{{ feature }}</span
+              >
+            </div>
+          </div>
         </div>
         <div class="flex-1"></div>
       </div>
@@ -15,4 +28,6 @@
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import { receiveFeature } from "../../utils/constant";
+</script>
