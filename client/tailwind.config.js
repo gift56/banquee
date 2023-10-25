@@ -16,6 +16,9 @@ module.exports = {
       screens: {
         tab: "948px",
       },
+      animation: {
+        switchImages: "switchImages 4s infinite",
+      },
     },
   },
   plugins: [],
