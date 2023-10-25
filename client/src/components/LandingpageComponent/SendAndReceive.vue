@@ -34,7 +34,7 @@
                 <i :class="product.icon"></i>
               </span>
               <div class="flex flex-col items-start justify-start">
-                <h4 class="font-dm text-medium text-base md:text-lg text-dark">
+                <h4 class="font-dm font-medium text-base md:text-lg text-dark">
                   {{ product.productBrand }}
                 </h4>
                 <p class="text-sm font-medium md:text-base text-dark/50">
