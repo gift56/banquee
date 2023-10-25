@@ -1,5 +1,5 @@
 <template>
-  <section>Organize</section>
+  <section>Notify</section>
 </template>
 
 <script setup></script>

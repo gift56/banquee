@@ -1,5 +1,5 @@
 <template>
-  <section>Organize</section>
+  <section>Partner</div>
 </template>
 
 <script setup></script>
