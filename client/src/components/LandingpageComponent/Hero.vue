@@ -7,7 +7,7 @@
             Banking <br class="hidden tab:block" />
             starts here.
           </h1>
-          <p class="text-lg font-medium text-dark md:text-xl">
+          <p class="text-base font-medium text-dark md:text-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore.
           </p>
@@ -18,15 +18,27 @@
               class="flex items-center justify-start gap-3"
             >
               <img src="../../assets/icons/badgeIcon.svg" alt="icon" />
-              <span class="text-base font-medium text-dark md:text-lg">{{
-                feature
-              }}</span>
+              <span
+                class="text-sm md:text-base font-medium text-dark tab:text-lg"
+                >{{ feature }}</span
+              >
             </div>
           </div>
-          <div class="flex items-center justify-start w-full gap-5">
-            <RouterLink to="/">
-              <button type="button" class="btn bg-primary text-white">
+          <div
+            class="flex flex-col mt-4 md:flex-row items-center justify-start w-full gap-5"
+          >
+            <RouterLink to="/" class="w-full md:w-fit">
+              <button
+                type="button"
+                class="btn bg-primary text-white !w-full md:!w-fit"
+              >
                 Open Account
+              </button>
+            </RouterLink>
+            <RouterLink to="/">
+              <button type="button" class="btn text-primary gap-4">
+                Compare Cards
+                <img src="../../assets/icons/right_arrowIcon.svg" alt="arrow" />
               </button>
             </RouterLink>
           </div>
