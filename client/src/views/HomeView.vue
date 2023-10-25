@@ -3,6 +3,7 @@ import Hero from "../components/LandingpageComponent/Hero.vue";
 import OneBanking from "../components/LandingpageComponent/OneBanking.vue";
 import Organize from "../components/LandingpageComponent/Organize.vue";
 import SendAndReceive from "../components/LandingpageComponent/SendAndReceive.vue";
+import Notified from "../components/LandingpageComponent/Notified.vue";
 </script>
 
 <template>
@@ -11,5 +12,6 @@ import SendAndReceive from "../components/LandingpageComponent/SendAndReceive.vu
     <OneBanking />
     <SendAndReceive />
     <Organize />
+    <Notified />
   </main>
 </template>
