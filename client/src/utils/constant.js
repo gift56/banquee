@@ -100,13 +100,13 @@ export const receiveData = [
     price: "-149€",
   },
   {
-    icon: "",
+    icon: "fa-brands fa-dropbox",
     productBrand: "Dropbox",
     product: "Cloud",
     price: "-14€",
   },
   {
-    icon: "",
+    icon: "fa-brands fa-paypal",
     productBrand: "Paypal",
     product: "Shopping",
     price: "-200€",
