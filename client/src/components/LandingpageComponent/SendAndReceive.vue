@@ -41,10 +41,10 @@
                   {{ product.product }}
                 </p>
               </div>
-              <p class="font-dm text-medium text-base md:text-lg text-dark">
-                {{ product.price }}
-              </p>
             </div>
+            <p class="font-dm text-medium text-base md:text-lg text-dark">
+              {{ product.price }}
+            </p>
           </div>
         </div>
       </div>
