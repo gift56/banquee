@@ -7,7 +7,10 @@
             Banking <br class="hidden tab:block" />
             starts here.
           </h1>
-          <p></p>
+          <p class="text-lg font-medium text-dark md:text-xl">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore.
+          </p>
           <div></div>
           <div></div>
         </div>
