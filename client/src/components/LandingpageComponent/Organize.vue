@@ -34,7 +34,7 @@
             :key="item.product"
             class="w-full flex flex-col items-start justify-start gap-4"
           >
-            <img :src="item.featureImage" :alt="item.product" />
+            <img :src="item.featureImage" :alt="item.product" class="w-full" />
             <div>
               <h3 class="text-base font-medium text-dark md:text-xl font-dm">
                 {{ item.product }}
@@ -45,7 +45,11 @@
             </div>
           </div>
           <div class="w-full flex flex-col items-start justify-start gap-4">
-            <img src="@/assets/icons/feature5Icon.svg" alt="addNew" />
+            <img
+              src="@/assets/icons/feature5Icon.svg"
+              alt="addNew"
+              class="w-full"
+            />
           </div>
         </div>
       </div>
