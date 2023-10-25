@@ -38,7 +38,7 @@
           class="w-full tab:flex-1 flex flex-col gap-5 items-center justify-center"
         >
           <div
-            v-for="item in [{}]"
+            v-for="item in notifyData"
             class="max-w-full w-full tab:max-w-[80%] tab:w-[80%] py-2 px-4 bg-white rounded-[10px] flex items-center justify-between gap-5"
           >
             <div class="flex items-start justify-start gap-4">
@@ -69,4 +69,12 @@
 <script setup>
 import { RouterLink } from "vue-router";
 import { receiveFeature } from "../../utils/constant";
+
+const notifyData = [
+  { heading: "Banko.", des: "You payment of 49€ has been processed!" },
+  { heading: "Banko.", des: "You payment of 49€ has been processed!" },
+  { heading: "Banko.", des: "You payment of 49€ has been processed!" },
+  { heading: "Banko.", des: "You payment of 49€ has been processed!" },
+  { heading: "Banko.", des: "You payment of 49€ has been processed!" },
+];
 </script>
