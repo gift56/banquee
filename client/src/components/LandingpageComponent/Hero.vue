@@ -17,7 +17,7 @@
               :key="feature"
               class="flex items-center justify-start gap-3"
             >
-              <img src="../../assets/icons/badgeIcon.svg" alt="icon" />
+              <img src="@/assets/icons/badgeIcon.svg" alt="icon" />
               <span
                 class="text-sm md:text-base font-medium text-dark tab:text-lg"
                 >{{ feature }}</span
@@ -38,13 +38,13 @@
             <RouterLink to="/">
               <button type="button" class="btn text-primary gap-4">
                 Compare Cards
-                <img src="../../assets/icons/right_arrowIcon.svg" alt="arrow" />
+                <img src="@/assets/icons/right_arrowIcon.svg" alt="arrow" />
               </button>
             </RouterLink>
           </div>
         </div>
         <div class="flex-1 relative flex items-center justify-center">
-          <img src="" alt="" />
+          <img src="@/assets/images/herocard.svg" alt="heroCard" />
           <img src="" alt="" />
         </div>
       </div>
