@@ -8,7 +8,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et.
           </p>
-          <div class="flex flex-col items-start justify-start gap-5">
+          <div class="flex flex-col items-start justify-start gap-3">
             <div
               v-for="feature in receiveFeature"
               :key="feature"
