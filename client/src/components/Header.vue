@@ -3,6 +3,29 @@ import { ref } from "vue";
 import { RouterLink } from "vue-router";
 
 const showNav = ref(false);
+
+const navLinks = [
+  {
+    href: "/",
+    text: "Features",
+  },
+  {
+    href: "/",
+    text: "Compare",
+  },
+  {
+    href: "/",
+    text: "Support",
+  },
+  {
+    href: "/",
+    text: "Support",
+  },
+  {
+    href: "/",
+    text: "Blog",
+  },
+];
 </script>
 
 <template>
@@ -13,26 +36,13 @@ const showNav = ref(false);
           banquee.
         </h2>
       </RouterLink>
-      <nav class="flex items-center justify-start gap-6">
+      <nav class="hidden tab:flex items-center justify-start gap-6">
         <RouterLink
-          to="/"
+          v-for="link in navLinks"
+          :key="link.text"
+          :to="link.href"
           class="text-base font-medium text-dark w-fit px-3 py-2 rounded-md hover:bg-navhover transition-all duration-300"
-          >Features</RouterLink
-        >
-        <RouterLink
-          to="/"
-          class="text-base font-medium text-dark w-fit px-3 py-2 rounded-md hover:bg-navhover transition-all duration-300"
-          >Compare</RouterLink
-        >
-        <RouterLink
-          to="/"
-          class="text-base font-medium text-dark w-fit px-3 py-2 rounded-md hover:bg-navhover transition-all duration-300"
-          >Support</RouterLink
-        >
-        <RouterLink
-          to="/"
-          class="text-base font-medium text-dark w-fit px-3 py-2 rounded-md hover:bg-navhover transition-all duration-300"
-          >Blog</RouterLink
+          >{{ link.text }}</RouterLink
         >
       </nav>
     </nav>
