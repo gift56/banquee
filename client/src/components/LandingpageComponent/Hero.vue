@@ -18,6 +18,7 @@
               class="flex items-center justify-start gap-3"
             >
               <img src="../../assets/icons/badgeIcon.svg" alt="icon" />
+              <span class="text-base font-medium text-dark md:text-lg">{{ feature }}</span>
             </div>
           </div>
           <div></div>
