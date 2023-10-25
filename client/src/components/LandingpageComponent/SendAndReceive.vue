@@ -2,7 +2,7 @@
   <section class="bg-featureBg w-full overflow-hidden">
     <div class="container">
       <div class="sectionCon">
-        <div class="flex-1 flex flex-col items-start justify-start gap-6">
+        <div class="w-full tab:flex-1 flex flex-col items-start justify-start gap-6">
           <h3 class="headingtext2">Send & receive money instantly</h3>
           <p class="text-base font-medium text-dark md:text-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -22,7 +22,7 @@
             </div>
           </div>
         </div>
-        <div class="flex-1 flex flex-col gap-5 items-center justify-center">
+        <div class="w-full tab:flex-1 flex flex-col gap-5 items-center justify-center">
           <div
             v-for="product in receiveData"
             class="max-w-full w-full tab:max-w-[80%] tab:w-[80%] py-2 px-4 bg-white rounded-[10px] flex items-center justify-between gap-5"
