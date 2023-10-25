@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full bg-white">
+  <section class="w-full bg-white overflow-hidden">
     <div class="container">
       <div class="sectionCon">
         <div class="flex-1 flex flex-col items-start justify-start gap-4">
