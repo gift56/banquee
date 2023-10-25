@@ -12,7 +12,8 @@
             eiusmod tempor incididunt ut labore.
           </p>
           <div class="w-full grid grid-cols-2 gap-4 items-start justify-start">
-            <div v-for="feature in heroFeatures" :key="feature">
+            <div v-for="feature in heroFeatures" :key="feature" class="flex items-center justify-start gap-3">
+              
             </div>
           </div>
           <div></div>
