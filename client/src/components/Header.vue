@@ -32,10 +32,31 @@
         class="tab:hidden flex flex-col h-screen bg-black/40 gap-7 absolute top-0 w-full z-40 transition-all duration-300"
         :class="{ 'left-0': isMenuOpen, '-left-full': !isMenuOpen }"
       >
-        <div
+        <nav
           ref="menuRef"
           className="flex flex-col h-full bg-white gap-5 p-4 w-[250px]"
-        ></div>
+        >
+          <div className="w-full flex items-center justify-end">
+            <span @click="toggleMenu" className="text-dark text-2xl">
+              <i class="fa-solid fa-xmark"></i>
+            </span>
+          </div>
+          <RouterLink
+            v-for="link in navLinks"
+            :key="link.text"
+            :to="link.href"
+            class="text-base font-medium text-dark"
+            >{{ link.text }}</RouterLink
+          >
+          <RouterLink to="/" class="text-lg font-medium text-primary font-dm"
+            >Login</RouterLink
+          >
+          <RouterLink to="/">
+            <button type="button" class="btn bg-primary text-white">
+              Open Account
+            </button>
+          </RouterLink>
+        </nav>
       </div>
     </nav>
   </header>
