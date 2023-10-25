@@ -10,7 +10,9 @@
           <div
             class="w-full grid grid-cols-1 md:grid-cols-2 items-start justify-start gap-6"
           >
-            <div v-for="feature in bankingFeature" :key="feature.title" class=""></div>
+            <div v-for="feature in bankingFeature" :key="feature.title" class="card">
+            
+            </div>
           </div>
         </div>
         <div class="flex-1"></div>
