@@ -2,7 +2,7 @@
   <section class="w-full bg-white">
     <div class="container">
       <div class="sectionCon xl:items-start">
-        <div class="flex-1 flex flex-col items-start justify-start gap-6">
+        <div class="flex-1 flex flex-col items-start justify-start gap-6 tab:gap-10">
           <h2 class="headingtext">
             One app. <br class="hidden tab:block" />
             One banking.
@@ -21,7 +21,9 @@
               >
                 {{ feature.title }}
               </h2>
-              <p class="text-sm font-medium text-dark md:text-base">{{ feature.detail }}</p>
+              <p class="text-sm font-medium text-dark md:text-base">
+                {{ feature.detail }}
+              </p>
             </div>
           </div>
         </div>
