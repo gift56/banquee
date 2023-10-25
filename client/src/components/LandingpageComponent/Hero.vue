@@ -30,7 +30,7 @@
             <RouterLink to="/" class="w-full md:w-fit">
               <button
                 type="button"
-                class="btn bg-primary text-white !w-full md:!w-fit"
+                class="btn bg-primary text-white !w-full md:!w-fit !px-8"
               >
                 Open Account
               </button>
