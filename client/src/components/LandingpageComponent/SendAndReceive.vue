@@ -22,8 +22,13 @@
             </div>
           </div>
         </div>
-        <div class="flex-1 flex flex-col gap-5">
-
+        <div class="flex-1 flex flex-col gap-5 items-center justify-center">
+          <div
+            v-for="product in receiveData"
+            class="max-w-full w-full tab:max-w-[80%] tab:w-[80%] py-2 px-4 bg-white rounded-[10px] flex items-center justify-between gap-5"
+          >
+            <span class="w-14 h-14 rounded-lg bg-primary text-white flex items-center justify-center"></span>
+          </div>
         </div>
       </div>
     </div>
@@ -31,5 +36,5 @@
 </template>
 
 <script setup>
-import { receiveFeature } from "../../utils/constant";
+import { receiveFeature, receiveData } from "../../utils/constant";
 </script>
