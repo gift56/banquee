@@ -4,6 +4,7 @@ import OneBanking from "../components/LandingpageComponent/OneBanking.vue";
 import Organize from "../components/LandingpageComponent/Organize.vue";
 import SendAndReceive from "../components/LandingpageComponent/SendAndReceive.vue";
 import Notified from "../components/LandingpageComponent/Notified.vue";
+import Partner from "../components/LandingpageComponent/Partner.vue";
 </script>
 
 <template>
@@ -13,5 +14,6 @@ import Notified from "../components/LandingpageComponent/Notified.vue";
     <SendAndReceive />
     <Organize />
     <Notified />
+    <Partner />
   </main>
 </template>
