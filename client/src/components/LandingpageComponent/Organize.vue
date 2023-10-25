@@ -29,7 +29,8 @@
         <div
           class="w-full grid grid-cols-1 md:grid-cols-2 tab:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 items-start justify-start gap-6"
         >
-          <div v-for="item in organizeFeature">
+          <div v-for="item in organizeFeature" :key="item.product" class="w-full flex flex-col items-start justify-start gap-4">
+          
           </div>
         </div>
       </div>
