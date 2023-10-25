@@ -19,6 +19,22 @@ module.exports = {
       animation: {
         switchImages: "switchImages 4s infinite",
       },
+      keyframes: {
+        switchImages: {
+          "0%": {
+            zIndex: 0,
+            transform: "translateX(0)",
+          },
+          "50%": {
+            zIndex: 20,
+            transform: "translateX(10%)",
+          },
+          "100%": {
+            zIndex: 0,
+            transform: "translateX(0)",
+          },
+        },
+      },
     },
   },
   plugins: [],
