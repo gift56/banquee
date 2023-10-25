@@ -16,7 +16,12 @@
               class="card"
             >
               <img :src="feature.iconSrc" :alt="feature.title" />
-              <h2 class="text-base font-medium text-dark">{{ feature.title }}</h2>
+              <h2
+                class="text-base font-medium text-dark font-dm md:text-lg tab:text-xl"
+              >
+                {{ feature.title }}
+              </h2>
+              <p class="text-sm font-medium text-dark md:text-base">{{ feature.detail }}</p>
             </div>
           </div>
         </div>
