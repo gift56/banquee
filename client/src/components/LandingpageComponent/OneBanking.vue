@@ -2,7 +2,9 @@
   <section class="w-full bg-white">
     <div class="container">
       <div class="sectionCon xl:items-start">
-        <div class="flex-1 flex flex-col items-start justify-start gap-6 tab:gap-10">
+        <div
+          class="flex-1 flex flex-col items-start justify-start gap-6 tab:gap-10"
+        >
           <h2 class="headingtext">
             One app. <br class="hidden tab:block" />
             One banking.
@@ -27,7 +29,9 @@
             </div>
           </div>
         </div>
-        <div class="flex-1"></div>
+        <div class="flex-1 flex items-center justify-center">
+          <img src="../../assets/images/phone.svg" alt="phone" class="w-[330px] max-w-full" />
+        </div>
       </div>
     </div>
   </section>
