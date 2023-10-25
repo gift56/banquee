@@ -16,8 +16,23 @@ const showNav = ref(false);
       <nav class="flex items-center justify-start gap-6">
         <RouterLink
           to="/"
-          class="text-base font-medium text-dark w-fit px-3 py-2 rounded-md hover:bg-navhover"
+          class="text-base font-medium text-dark w-fit px-3 py-2 rounded-md hover:bg-navhover transition-all duration-300"
           >Features</RouterLink
+        >
+        <RouterLink
+          to="/"
+          class="text-base font-medium text-dark w-fit px-3 py-2 rounded-md hover:bg-navhover transition-all duration-300"
+          >Compare</RouterLink
+        >
+        <RouterLink
+          to="/"
+          class="text-base font-medium text-dark w-fit px-3 py-2 rounded-md hover:bg-navhover transition-all duration-300"
+          >Support</RouterLink
+        >
+        <RouterLink
+          to="/"
+          class="text-base font-medium text-dark w-fit px-3 py-2 rounded-md hover:bg-navhover transition-all duration-300"
+          >Blog</RouterLink
         >
       </nav>
     </nav>
