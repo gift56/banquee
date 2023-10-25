@@ -45,7 +45,7 @@
         </div>
         <div class="flex-1 relative flex items-center justify-center">
           <img src="@/assets/images/herocard.svg" alt="heroCard" />
-          <img src="" alt="" />
+          <img src="../../assets/images/herocard2.svg" alt="heroCard" />
         </div>
       </div>
     </div>

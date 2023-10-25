@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full sticky top-0 z-40">
+  <header class="w-full sticky top-0 z-40 bg-white">
     <nav class="headerNav">
       <RouterLink to="/" class="select-none">
         <h2 class="font-dm text-2xl font-bold text-primary md:text-2xl">
