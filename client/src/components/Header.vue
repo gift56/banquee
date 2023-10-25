@@ -1,54 +1,3 @@
-<script setup>
-import { ref, onMounted, onUnmounted } from "vue";
-import { RouterLink } from "vue-router";
-
-const isMenuOpen = ref(false);
-
-const toggleMenu = () => {
-  isMenuOpen.value = !isMenuOpen.value;
-};
-
-const closeMenuOnOutsideClick = (event) => {
-  if (isMenuOpen.value && !menuRef.contains(event.target)) {
-    isMenuOpen.value = false;
-  }
-};
-
-const menuRef = ref(null);
-
-onMounted(() => {
-  window.addEventListener("click", closeMenuOnOutsideClick);
-});
-
-// Clean up the event listener when the component is unmounted
-onUnmounted(() => {
-  window.removeEventListener("click", closeMenuOnOutsideClick);
-});
-
-const navLinks = [
-  {
-    href: "/",
-    text: "Features",
-  },
-  {
-    href: "/",
-    text: "Compare",
-  },
-  {
-    href: "/",
-    text: "Support",
-  },
-  {
-    href: "/",
-    text: "Support",
-  },
-  {
-    href: "/",
-    text: "Blog",
-  },
-];
-</script>
-
 <template>
   <header class="w-full sticky top-0 z-40">
     <nav class="headerNav">
@@ -80,9 +29,68 @@ const navLinks = [
         <i class="fa-solid fa-bars"></i>
       </span>
       <div
-        :class="{ '!left-0': isMenuOpen, '-left-full': !isMenuOpen }"
         class="tab:hidden flex flex-col h-screen bg-black/40 gap-7 absolute top-0 w-full z-40 transition-all duration-300"
-      ></div>
+        :class="{ 'left-0': isMenuOpen, '-left-full': !isMenuOpen }"
+      >
+        <div
+          ref="menuRef"
+          className="flex flex-col h-full bg-white gap-5 p-4 w-[250px]"
+        ></div>
+      </div>
     </nav>
   </header>
 </template>
+
+<script setup>
+import { ref, onMounted, onUnmounted } from "vue";
+import { RouterLink } from "vue-router";
+
+const isMenuOpen = ref(false);
+const menuRef = ref(null);
+
+const toggleMenu = () => {
+  isMenuOpen.value = !isMenuOpen.value;
+};
+
+const closeMenuOnClickOutside = (event) => {
+  if (
+    isMenuOpen.value &&
+    menuRef.value &&
+    !menuRef.value.contains(event.target)
+  ) {
+    isMenuOpen.value = false;
+  }
+};
+
+onMounted(() => {
+  window.addEventListener("click", closeMenuOnClickOutside);
+});
+
+// Clean up the event listener when the component is unmounted
+onUnmounted(() => {
+  window.removeEventListener("click", closeMenuOnClickOutside);
+});
+
+const navLinks = [
+  {
+    href: "/",
+    text: "Features",
+  },
+  {
+    href: "/",
+    text: "Compare",
+  },
+  {
+    href: "/",
+    text: "Support",
+  },
+  {
+    href: "/",
+    text: "Support",
+  },
+  {
+    href: "/",
+    text: "Blog",
+  },
+];
+</script>
