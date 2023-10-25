@@ -63,12 +63,12 @@ const closeMenuOnClickOutside = (event) => {
 };
 
 onMounted(() => {
-  window.addEventListener("click", closeMenuOnClickOutside);
+  document.addEventListener("mousedown", closeMenuOnClickOutside);
 });
 
 // Clean up the event listener when the component is unmounted
 onUnmounted(() => {
-  window.removeEventListener("click", closeMenuOnClickOutside);
+  document.removeEventListener("mousedown", closeMenuOnClickOutside);
 });
 
 const navLinks = [
