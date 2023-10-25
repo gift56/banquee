@@ -22,6 +22,8 @@ import blogImage1 from "../assets/images/blogImage1.png";
 import blogImage2 from "../assets/images/blogImage2.png";
 import blogImage3 from "../assets/images/blogImage3.png";
 
+
+
 export const heroFeatures = [
   "Instant Transfer",
   "Payments worldwide",
