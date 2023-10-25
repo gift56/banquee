@@ -9,8 +9,13 @@
           Organize your <br class="hidden tab:block" />
           money the right way
         </h3>
-        <div class="w-full flex flex-col md:flex-row items-center justify-between gap-6">
-          <p></p>
+        <div
+          class="w-full flex flex-col md:flex-row items-center justify-between gap-6"
+        >
+          <p class="text-base font-medium text-dark md:text-xl tab:max-w-[600px]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
         </div>
       </div>
     </div>
