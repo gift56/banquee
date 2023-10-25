@@ -37,3 +37,8 @@
 .sectionCon {
   @apply w-full flex flex-col items-center justify-between tab:flex-row gap-6 py-12;
 }
+
+img {
+  user-select: none;
+  -webkit-user-drag: none;
+}

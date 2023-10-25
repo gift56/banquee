@@ -44,8 +44,8 @@
           </div>
         </div>
         <div class="flex-1 relative flex items-center justify-center">
-          <img src="@/assets/images/herocard.svg" alt="heroCard" class="relative z-10"/>
-          <img src="../../assets/images/herocard2.svg" alt="heroCard" class="absolute right-0 top-[-10%]" />
+          <img src="@/assets/images/herocard.svg" alt="heroCard" class="relative z-10" id="image1"/>
+          <img src="@/assets/images/herocard2.svg" alt="heroCard" class="absolute right-0 top-[-10%]" id="image2" />
         </div>
       </div>
     </div>
