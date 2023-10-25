@@ -8,11 +8,11 @@
 }
 
 .container {
-  @apply w-[90%] md:w-[80%] tab:max-w-[1250px] mx-auto;
+  @apply w-[90%] xl:w-[80%] xl:max-w-[1250px] mx-auto;
 }
 
 .headerNav {
-  @apply px-5 py-4 tab:px-20 w-full flex items-center justify-between gap-6;
+  @apply px-5 py-4 xl:px-20 w-full flex items-center justify-between gap-6;
 }
 .navLink {
   @apply hidden tab:flex items-center justify-start gap-6;

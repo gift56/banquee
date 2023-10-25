@@ -47,12 +47,12 @@
           <img
             src="@/assets/images/herocard.svg"
             alt="heroCard"
-            class="relative z-10"
+            class="relative z-10 w-[70%] max-w-full xl:w-[300px]"
           />
           <img
             src="@/assets/images/herocard2.svg"
             alt="heroCard"
-            class="absolute right-0 top-[-10%] animate-switchImages"
+            class="absolute right-0 tab:top-[-5%] animate-switchImages w-[90%] max-w-full xl:w-[380px]"
           />
         </div>
       </div>
