@@ -12,14 +12,24 @@
         <div
           class="w-full flex flex-col md:flex-row items-center justify-between gap-6"
         >
-          <p class="text-base font-medium text-dark md:text-xl tab:max-w-[600px]">
+          <p
+            class="text-base font-medium text-dark md:text-xl tab:max-w-[600px]"
+          >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
+          <RouterLink to="/">
+            <button type="button" class="btn text-primary gap-4">
+              All Features
+              <img src="@/assets/icons/right_arrowIcon.svg" alt="arrow" />
+            </button>
+          </RouterLink>
         </div>
       </div>
     </div>
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import { RouterLink } from "vue-router";
+</script>
