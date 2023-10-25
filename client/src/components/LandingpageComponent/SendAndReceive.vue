@@ -27,7 +27,11 @@
             v-for="product in receiveData"
             class="max-w-full w-full tab:max-w-[80%] tab:w-[80%] py-2 px-4 bg-white rounded-[10px] flex items-center justify-between gap-5"
           >
-            <span class="w-14 h-14 rounded-lg bg-primary text-white flex items-center justify-center"></span>
+            <span
+              class="w-12 h-12 rounded-lg bg-primary text-white text-2xl flex items-center justify-center"
+            >
+              <i :class="product.icon"></i>
+            </span>
           </div>
         </div>
       </div>
