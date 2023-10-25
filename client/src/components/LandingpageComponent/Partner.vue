@@ -1,5 +1,5 @@
 <template>
-  <section>Partner</div>
+  <section>Partner</section>
 </template>
 
 <script setup></script>
