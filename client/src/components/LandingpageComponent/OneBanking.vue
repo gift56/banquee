@@ -7,7 +7,9 @@
             One app. <br class="hidden tab:block" />
             One banking.
           </h2>
-          <div class="w-full grid grid-cols-1 "></div>
+          <div class="w-full grid grid-cols-1 md:grid-cols-2 items-start justify-start gap-6">
+            
+          </div>
         </div>
         <div class="flex-1"></div>
       </div>
