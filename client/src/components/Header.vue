@@ -1,5 +1,13 @@
 <script setup>
+import { ref } from "vue";
 import { RouterLink } from "vue-router";
+
+const isMenuOpen = ref(false);
+
+const toggleMenu = () => {
+  isMenuOpen.value = !isMenuOpen.value;
+};
+
 const navLinks = [
   {
     href: "/",
@@ -51,9 +59,10 @@ const navLinks = [
           </button>
         </RouterLink>
       </div>
-      <span class="tab:hidden w-5 h-5 bg-red-500">
-        
+      <span @click="toggleMenu" class="tab:hidden">
+        Bar
       </span>
+      <div></div>
     </nav>
   </header>
 </template>
