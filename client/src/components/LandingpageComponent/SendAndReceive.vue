@@ -1,5 +1,5 @@
 <template>
-  <section>Send and Receive</section>
+  <section class="bg-featureBg w-full">Send and Receive</section>
 </template>
 
 <script setup></script>
