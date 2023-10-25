@@ -33,9 +33,17 @@
               >
                 <i :class="product.icon"></i>
               </span>
-              <div class="flex flex-col items-start justify-start gap-2">
-                <h4 class="font-dm text-medium text-base md:text-lg text-dark">{{ product.productBrand }}</h4>
+              <div class="flex flex-col items-start justify-start">
+                <h4 class="font-dm text-medium text-base md:text-lg text-dark">
+                  {{ product.productBrand }}
+                </h4>
+                <p class="text-sm font-medium md:text-base text-dark/50">
+                  {{ product.product }}
+                </p>
               </div>
+              <p class="font-dm text-medium text-base md:text-lg text-dark">
+                {{ product.price }}
+              </p>
             </div>
           </div>
         </div>
