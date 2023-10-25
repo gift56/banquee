@@ -6,6 +6,6 @@ const showNav = ref(false);
 
 <template>
   <header class="w-full sticky top-0 z-40">
-    <nav class="px-20 py-4 tab:px-40">hdek</nav>
+    <nav class="px-10 py-4 tab:px-20">hdek</nav>
   </header>
 </template>
