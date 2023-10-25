@@ -1,8 +1,5 @@
 <script setup>
-import { ref } from "vue";
 import { RouterLink } from "vue-router";
-
-const showNav = ref(false);
 
 const navLinks = [
   {
@@ -55,8 +52,8 @@ const navLinks = [
           </button>
         </RouterLink>
       </div>
-      <span class="tab:hidden">
-        <CoHamburgerMenu />
+      <span class="tab:hidden w-5 h-5 bg-red-500">
+        
       </span>
     </nav>
   </header>
