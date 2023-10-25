@@ -22,7 +22,9 @@
             </div>
           </div>
         </div>
-        <div class="flex-1"></div>
+        <div class="flex-1 flex flex-col gap-5">
+
+        </div>
       </div>
     </div>
   </section>
