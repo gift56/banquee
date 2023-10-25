@@ -36,7 +36,7 @@ const navLinks = [
           banquee.
         </h2>
       </RouterLink>
-      <nav class="hidden tab:flex items-center justify-start gap-6">
+      <nav class="navLink">
         <RouterLink
           v-for="link in navLinks"
           :key="link.text"
@@ -45,6 +45,16 @@ const navLinks = [
           >{{ link.text }}</RouterLink
         >
       </nav>
+      <div class="navLink">
+        <RouterLink to="/" class="text-lg font-medium text-primary font-dm"
+          >Login</RouterLink
+        >
+        <RouterLink to="/">
+          <button type="button" class="btn bg-primary text-white">
+            Open Account
+          </button>
+        </RouterLink>
+      </div>
     </nav>
   </header>
 </template>
