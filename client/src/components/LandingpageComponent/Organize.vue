@@ -39,8 +39,13 @@
               <h3 class="text-base font-medium text-dark md:text-xl font-dm">
                 {{ item.product }}
               </h3>
-              <p class="text-sm font-medium md:text-base text-dark/50">{{ item.price }}</p>
+              <p class="text-sm font-medium md:text-base text-dark/50">
+                {{ item.price }}
+              </p>
             </div>
+          </div>
+          <div class="w-full flex flex-col items-start justify-start gap-4">
+            <img src="@/assets/icons/feature5Icon.svg" alt="addNew" />
           </div>
         </div>
       </div>
