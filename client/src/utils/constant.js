@@ -76,25 +76,25 @@ export const receiveFeature = [
 
 export const receiveData = [
   {
-    icon: "",
+    icon: "fa-brands fa-apple",
     productBrand: "Apple",
     product: "Macbook",
     price: "-999€",
   },
   {
-    icon: "",
+    icon: "fa-brands fa-amazon",
     productBrand: "Amazon",
     product: "Electronics",
     price: "-29€",
   },
   {
-    icon: "",
+    icon: "fa-brands fa-twitter",
     productBrand: "Twitter",
     product: "Ads",
     price: "-29€",
   },
   {
-    icon: "",
+    icon: "fa-brands fa-microsoft",
     productBrand: "Microsoft",
     product: "Office Suite",
     price: "-149€",

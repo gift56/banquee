@@ -14,7 +14,7 @@
               :key="feature"
               class="flex items-center justify-start gap-3 w-full"
             >
-              <img src="../../assets/icons/checkIcon.svg" alt="checkIcon" />
+              <img src="@/assets/icons/checkIcon.svg" alt="checkIcon" />
               <span
                 class="text-sm md:text-base font-medium text-dark tab:text-lg"
                 >{{ feature }}</span
