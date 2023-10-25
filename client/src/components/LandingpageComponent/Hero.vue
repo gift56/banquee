@@ -11,7 +11,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore.
           </p>
-          <div></div>
+          <div class="w-full grid grid-cols-2 gap-4 items-start"></div>
           <div></div>
         </div>
         <div class="flex-1 relative flex items-center justify-center">
