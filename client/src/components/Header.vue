@@ -79,6 +79,10 @@ const navLinks = [
       <span @click="toggleMenu" v-if="!isMenuOpen" class="tab:hidden text-2xl">
         <i class="fa-solid fa-bars"></i>
       </span>
+      <div
+        :class="{ '!left-0': isMenuOpen, '-left-full': !isMenuOpen }"
+        class="tab:hidden flex flex-col h-screen bg-black/40 gap-7 absolute top-0 w-full z-40 transition-all duration-300"
+      ></div>
     </nav>
   </header>
 </template>
