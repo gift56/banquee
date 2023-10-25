@@ -29,8 +29,16 @@
         <div
           class="w-full grid grid-cols-1 md:grid-cols-2 tab:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 items-start justify-start gap-6"
         >
-          <div v-for="item in organizeFeature" :key="item.product" class="w-full flex flex-col items-start justify-start gap-4">
-          
+          <div
+            v-for="item in organizeFeature"
+            :key="item.product"
+            class="w-full flex flex-col items-start justify-start gap-4"
+          >
+            <img :src="item.featureImage" :alt="item.product" />
+            <h3 class="text-base font-medium text-dark md:text-xl font-dm">
+              {{ item.product }}
+            </h3>
+            <p>{{ item.price }}</p>
           </div>
         </div>
       </div>
