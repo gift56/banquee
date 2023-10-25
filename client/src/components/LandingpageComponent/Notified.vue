@@ -38,27 +38,22 @@
           class="w-full tab:flex-1 flex flex-col gap-5 items-center justify-center"
         >
           <div
-            v-for="item in notifyData"
-            class="max-w-full w-full tab:max-w-[80%] tab:w-[80%] py-2 px-4 bg-white rounded-[10px] flex items-center justify-between gap-5"
+            v-for="(item, index) in notifyData"
+            :key="index"
+            class="max-w-full w-full tab:max-w-[80%] tab:w-[80%] py-2 px-4 bg-navhover rounded-[10px] flex items-center justify-between gap-5"
           >
             <div class="flex items-start justify-start gap-4">
-              <span
-                class="w-12 h-12 rounded-lg bg-primary text-white text-2xl flex items-center justify-center"
-              >
-                <i :class="product.icon"></i>
-              </span>
+              
               <div class="flex flex-col items-start justify-start">
                 <h4 class="font-dm text-medium text-base md:text-lg text-dark">
-                  {{ product.productBrand }}
+                  {{ item.heading }}
                 </h4>
                 <p class="text-sm font-medium md:text-base text-dark/50">
-                  {{ product.product }}
+                  {{ item.des }}
                 </p>
               </div>
             </div>
-            <p class="font-dm text-medium text-base md:text-lg text-dark">
-              {{ product.price }}
-            </p>
+            
           </div>
         </div>
       </div>
