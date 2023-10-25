@@ -7,6 +7,7 @@
             One app. <br class="hidden tab:block" />
             One banking.
           </h2>
+          <div class="w-full grid grid-cols-1 "></div>
         </div>
         <div class="flex-1"></div>
       </div>
