@@ -10,8 +10,13 @@
           <div
             class="w-full grid grid-cols-1 md:grid-cols-2 items-start justify-start gap-6"
           >
-            <div v-for="feature in bankingFeature" :key="feature.title" class="card">
-            
+            <div
+              v-for="feature in bankingFeature"
+              :key="feature.title"
+              class="card"
+            >
+              <img :src="feature.iconSrc" :alt="feature.title" />
+              <h2></h2>
             </div>
           </div>
         </div>
