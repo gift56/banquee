@@ -1,5 +1,5 @@
 <template>
-  <div>Send and Receive</div>
+  <section>Send and Receive</section>
 </template>
 
 <script setup></script>
