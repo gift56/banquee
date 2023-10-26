@@ -7,7 +7,13 @@
         >
           <h2 class="headingtext2">Need help?</h2>
           <div class="flex flex-col items-start justify-start gap-3">
-            <div class=""></div>
+            <img src="@/assets/icons/contactPhoneIcon.svg" alt="contact" />
+            <div class="flex flex-col items-start justify-start">
+              <h5 class="text-base font-medium text-dark md:text-lg font-dm">
+                +49 176 123 456
+              </h5>
+              <h6 class="text-sm font-medium text-dark/50">Support Hotline</h6>
+            </div>
           </div>
         </div>
         <div
