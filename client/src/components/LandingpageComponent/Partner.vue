@@ -35,13 +35,13 @@
           />
         </div>
         <div class="flex flex-col mt-4 md:flex-row items-center justify-start w-full gap-5">
-          <RouterLink to="/">
-            <button type="button" class="btn bg-primary text-white">
+          <RouterLink to="/" class="w-full md:w-fit">
+            <button type="button" class="btn bg-primary text-white !w-full md:!w-fit !px-8">
               Open Account
             </button>
           </RouterLink>
-          <RouterLink to="/">
-            <button type="button" class="btn bg-white text-dark border border-bordergray">
+          <RouterLink to="/" class="w-full md:w-fit">
+            <button type="button" class="btn bg-white text-dark border border-bordergray !w-full md:!w-fit !px-8">
               Compare Cards
             </button>
           </RouterLink>
