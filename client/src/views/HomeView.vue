@@ -7,6 +7,7 @@ import Notified from "../components/LandingpageComponent/Notified.vue";
 import Partner from "../components/LandingpageComponent/Partner.vue";
 import Testimony from "../components/LandingpageComponent/Testimony.vue";
 import BankingApp from "../components/LandingpageComponent/BankingApp.vue";
+import Faq from "../components/LandingpageComponent/Faq.vue";
 </script>
 
 <template>
@@ -19,5 +20,6 @@ import BankingApp from "../components/LandingpageComponent/BankingApp.vue";
     <Partner />
     <Testimony />
     <BankingApp />
+    <Faq />
   </main>
 </template>
