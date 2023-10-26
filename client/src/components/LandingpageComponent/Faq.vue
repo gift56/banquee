@@ -1,7 +1,7 @@
 <template>
   <section class="w-full bg-white">
     <div class="container">
-      <div class="sectionCon">
+      <div class="sectionCon !items-start">
         <div
           class="w-full tab:flex-1 flex flex-col items-start justify-start gap-4"
         >
@@ -39,9 +39,17 @@
             </div>
           </RouterLink>
         </div>
-        <div
-          class="w-full tab:flex-1 flex flex-col items-start justify-start gap-4"
-        ></div>
+        <div class="w-full tab:flex-1 flex flex-col items-start justify-start">
+          <div
+            v-for="faq in faqList"
+            :key="faq.id"
+            class="w-full flex flex-col items-start justify-start py-4 border-b border-red-500 transition-all duration-300"
+          >
+            <div class="w-full flex items-center justify-between gap-3">
+              <h2 class="">{{ faq.question }}</h2>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -49,4 +57,12 @@
 
 <script setup>
 import { RouterLink } from "vue-router";
+import { ref } from "vue";
+import { faqData } from "../../utils/constant";
+
+const faqList = ref(faqData);
+
+const toggleFaq = (index) => {
+  faqList.value[index].open = !faqList.value[index].open;
+};
 </script>
