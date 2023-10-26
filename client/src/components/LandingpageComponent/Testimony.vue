@@ -13,8 +13,8 @@
             world use banko.
           </h3>
           <div class="flex items-center justify-end gap-2">
-            <div>
-              <img src="" alt="">
+            <div class="w-10 h-10 bg-featureBg rounded-full flex items-center justify-center">
+              <img src="@/assets/icons/starIcon.svg" alt="star">
             </div>
           </div>
         </div>
