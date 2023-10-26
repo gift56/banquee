@@ -48,9 +48,12 @@
               {{ testimony.detail }}
             </p>
             <div class="flex flex-col items-start justify-start">
-              <h5
-                class="text-base font-medium text-dark md:text-lg font-dm"
-              ></h5>
+              <h5 class="text-base font-medium text-dark md:text-lg font-dm">
+                {{ testimony.authorDetail.name }}
+              </h5>
+              <h6 class="text-sm font-medium text-dark/50">
+                {{ testimony.authorDetail.title }}
+              </h6>
             </div>
           </div>
         </div>
