@@ -9,12 +9,28 @@
           Perfect card <br class="hidden tab:block" />
           for your needs.
         </h2>
-        <p class="text-base font-medium text-dark md:text-xl tab:max-w-[500px] text-center">
+        <p
+          class="text-base font-medium text-dark md:text-xl tab:max-w-[500px] text-center mb-10"
+        >
           Senectus et netus et malesuada fames ac turpis. Sagittis vitae et leo
           duis ut diam.
         </p>
-        <div class="relative flex flex-col items-center justify-center">
-          
+        <div class="relative flex flex-col items-center justify-center pt-48">
+          <img
+            src="../../assets/images/card1.svg"
+            alt="card"
+            class="relative z-30"
+          />
+          <img
+            src="../../assets/images/card2.svg"
+            alt="card"
+            class="absolute top-[20%] z-10"
+          />
+          <img
+            src="../../assets/images/card3.svg"
+            alt="card"
+            class="absolute top-[0%]"
+          />
         </div>
       </div>
     </div>
