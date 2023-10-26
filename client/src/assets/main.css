@@ -42,3 +42,8 @@ img {
   user-select: none;
   -webkit-user-drag: none;
 }
+
+::selection {
+  color: #fff;
+  background-color: #5BB5A2;
+}

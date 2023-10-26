@@ -6,7 +6,7 @@
           Testimonials
         </h6>
         <div
-          class="w-full flex flex-col md:flex-row items-center justify-between gap-6"
+          class="w-full flex flex-col md:flex-row items-end justify-between gap-6"
         >
           <h3 class="headingtext2">
             People all over the<br class="hidden tab:block" />
