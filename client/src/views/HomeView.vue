@@ -5,6 +5,7 @@ import Organize from "../components/LandingpageComponent/Organize.vue";
 import SendAndReceive from "../components/LandingpageComponent/SendAndReceive.vue";
 import Notified from "../components/LandingpageComponent/Notified.vue";
 import Partner from "../components/LandingpageComponent/Partner.vue";
+import Testimony from "../components/LandingpageComponent/Testimony.vue";
 </script>
 
 <template>
@@ -15,5 +16,6 @@ import Partner from "../components/LandingpageComponent/Partner.vue";
     <Organize />
     <Notified />
     <Partner />
+    <Testimony />
   </main>
 </template>
