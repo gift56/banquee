@@ -30,7 +30,7 @@
           </div>
           <RouterLink to="/" class="group">
             <div class="text-primary flex items-center gap-2">
-              Compare Cards
+              Support
               <img
                 src="@/assets/icons/right_arrowIcon.svg"
                 alt="arrow"
@@ -48,5 +48,5 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router';
+import { RouterLink } from "vue-router";
 </script>
