@@ -34,7 +34,7 @@
             class="absolute top-[0%]"
           />
         </div>
-        <div class="w-full flex items-center justify-center gap-6 mt-4">
+        <div class="flex flex-col mt-4 md:flex-row items-center justify-start w-full gap-5">
           <RouterLink to="/">
             <button type="button" class="btn bg-primary text-white">
               Open Account

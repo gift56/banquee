@@ -5,7 +5,7 @@
         class="w-full bg-primary text-white flex flex-col tab:flex-row items-start gap-8 justify-between px-4 tab:px-10 rounded-[20px] tab:h-[] overflow-hidden"
       >
         <div
-          class="w-full tab:flex-1 flex flex-col items-start justify-start gap-4 py-20"
+          class="w-full tab:flex-1 flex flex-col items-start justify-start gap-4 pt-6 pb-60 tab:py-20"
         >
           <h1 class="headingtext2 !text-white">
             One app.
@@ -16,7 +16,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore.
           </p>
-          <div class="w-full grid grid-cols-2 gap-4 items-start justify-start">
+          <div class="w-full grid sm:grid-cols-2 gap-4 items-start justify-start">
             <div
               v-for="feature in heroFeatures"
               :key="feature"
@@ -44,7 +44,7 @@
           <img
             src="@/assets/images/phone.svg"
             alt="phone"
-            class="w-[330px] max-w-full absolute top-[90px]"
+            class="w-[330px] max-w-full absolute lg:top-[90px]"
           />
         </div>
       </div>

@@ -1,6 +1,8 @@
 <template>
   <section class="w-full bg-white">
-    <div class="container"></div>
+    <div class="container">
+      
+    </div>
   </section>
 </template>
 

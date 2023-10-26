@@ -24,7 +24,7 @@
           </div>
         </div>
         <div
-          class="w-full grid grid-cols-2 lg:grid-cols-3 items-start justify-start gap-6"
+          class="w-full grid md:grid-cols-2 lg:grid-cols-3 items-start justify-start gap-6"
         >
           <div
             v-for="testimony in testimonyData"
