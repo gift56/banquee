@@ -1,5 +1,5 @@
 <template>
-  <section>Partner</section>
+  <section class="w-full bg-white"></section>
 </template>
 
 <script setup></script>
