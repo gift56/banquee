@@ -30,7 +30,11 @@
           </div>
         </div>
         <div class="flex-1 flex items-center justify-center">
-          <img src="../../assets/images/phone.svg" alt="phone" class="w-[330px] max-w-full" />
+          <img
+            src="../../assets/images/phone.svg"
+            alt="phone"
+            class="w-[330px] max-w-full"
+          />
         </div>
       </div>
     </div>
