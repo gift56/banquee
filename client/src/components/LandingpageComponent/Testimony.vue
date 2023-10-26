@@ -13,9 +13,14 @@
             world use banko.
           </h3>
           <div class="flex items-center justify-end gap-2">
-            <div class="w-10 h-10 bg-featureBg rounded-full flex items-center justify-center">
-              <img src="@/assets/icons/starIcon.svg" alt="star">
+            <div
+              class="w-10 h-10 bg-featureBg rounded-full flex items-center justify-center"
+            >
+              <img src="@/assets/icons/starIcon.svg" alt="star" />
             </div>
+            <p class="text-base font-medium text-dark md:text-lg">
+              Rated <span class="text-primary">4.8/5</span> from over 1000 users
+            </p>
           </div>
         </div>
       </div>
