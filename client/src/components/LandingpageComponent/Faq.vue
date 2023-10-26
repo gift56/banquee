@@ -59,6 +59,7 @@
                 class="transition-all duration-300"
               />
             </div>
+            <p class="mt-4 text-sm md:text-base text-dark/50">{{ faq.answer }}</p>
           </div>
         </div>
       </div>
