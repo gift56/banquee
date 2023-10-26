@@ -36,7 +36,12 @@
               <div
                 class="w-full flex flex-wrap gap-5 items-start justify-start"
               >
-                <span class="w-fit py-1 px-2 rounded text-sm font-medium text-dark select-none"></span>
+                <span
+                  class="w-fit py-1 px-2 rounded text-sm font-medium text-dark select-none bg-bordergray"
+                  v-for="item in blog.cat"
+                  :key="item"
+                  >{{ item }}</span
+                >
               </div>
             </div>
           </div>
