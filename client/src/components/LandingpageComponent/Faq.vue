@@ -62,7 +62,7 @@
             <div
               class="max-h-0 overflow-hidden transition-all duration-300"
               :class="{
-                'max-h-[1000px] transition-all duration-300 transform origin-top':
+                'max-h-[1000px] transition-all duration-300':
                   faq.open,
               }"
             >
