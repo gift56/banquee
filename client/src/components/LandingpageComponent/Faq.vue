@@ -6,7 +6,9 @@
           class="w-full tab:flex-1 flex flex-col items-start justify-start gap-4"
         >
           <h2 class="headingtext2">Need help?</h2>
-          <div></div>
+          <div class="flex flex-col items-start justify-start gap-3">
+            <div class=""></div>
+          </div>
         </div>
         <div
           class="w-full tab:flex-1 flex flex-col items-start justify-start gap-4"
