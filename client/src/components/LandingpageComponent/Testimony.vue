@@ -23,9 +23,29 @@
             </p>
           </div>
         </div>
+        <div
+          class="w-full grid grid-cols-2 lg:grid-cols-3 items-start justify-start gap-6"
+        >
+          <div
+            v-for="testimony in testimonyData"
+            :key="testimony.headline"
+            class="card"
+          >
+            <div class="flex items-center justify-start gap-1">
+              <img
+                src="@/assets/icons/starIcon.svg"
+                alt="star"
+                v-for="star in testimony.starTotal"
+                :key="star"
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import { testimonyData } from "../../utils/constant";
+</script>
