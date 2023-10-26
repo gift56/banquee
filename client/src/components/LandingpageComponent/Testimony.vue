@@ -39,8 +39,19 @@
                 :key="star"
               />
             </div>
-            <h4 class="text-lg font-medium text-dark font-dm md:text-2xl xl:text-3xl">{{ testimony.headline }}</h4>
-            <p class="text-sm font-medium text-dark">{{ testimony.detail }}</p>
+            <h4
+              class="text-lg font-medium text-dark font-dm md:text-2xl xl:text-3xl"
+            >
+              {{ testimony.headline }}
+            </h4>
+            <p class="text-sm font-medium text-dark md:text-base">
+              {{ testimony.detail }}
+            </p>
+            <div class="flex flex-col items-start justify-start">
+              <h5
+                class="text-base font-medium text-dark md:text-lg font-dm"
+              ></h5>
+            </div>
           </div>
         </div>
       </div>
