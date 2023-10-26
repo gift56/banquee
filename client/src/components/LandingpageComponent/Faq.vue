@@ -62,8 +62,7 @@
             <div
               class="max-h-0 overflow-hidden transition-all duration-300"
               :class="{
-                'max-h-[1000px] transition-all duration-300':
-                  faq.open,
+                'max-h-[1000px] transition-all duration-300': faq.open,
               }"
             >
               <p class="mt-4 text-sm md:text-base text-dark/50">
@@ -85,6 +84,12 @@ import { faqData } from "../../utils/constant";
 const faqList = ref(faqData);
 
 const toggleFaq = (index) => {
+  for (let i = 0; i < faqList.value.length; i++) {
+    if (i !== index) {
+      faqList.value[i].open = false;
+    }
+  }
+
   faqList.value[index].open = !faqList.value[index].open;
 };
 </script>
