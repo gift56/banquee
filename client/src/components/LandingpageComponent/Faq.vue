@@ -45,8 +45,17 @@
             :key="faq.id"
             class="w-full flex flex-col items-start justify-start py-4 border-b border-red-500 transition-all duration-300"
           >
-            <div class="w-full flex items-center justify-between gap-3 cursor-pointer select-none">
-              <h2 class="text-base font-medium text-dark md:text-xl font-dm">{{ faq.question }}</h2>
+            <div
+              class="w-full flex items-center justify-between gap-3 cursor-pointer select-none"
+            >
+              <h2 class="text-base font-medium text-dark md:text-xl font-dm">
+                {{ faq.question }}
+              </h2>
+              <img
+                src="@/assets/icons/plusIcon.svg"
+                alt="plusIcon"
+                :class="{ 'rotate-45': faq.open }"
+              />
             </div>
           </div>
         </div>
