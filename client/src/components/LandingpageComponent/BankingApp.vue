@@ -2,7 +2,7 @@
   <section class="w-full bg-white py-16">
     <div class="container">
       <div
-        class="w-full bg-primary text-white flex flex-col tab:flex-row items-start gap-8 justify-between px-4 tab:px-10 rounded-[20px]"
+        class="w-full bg-primary text-white flex flex-col tab:flex-row items-start gap-8 justify-between px-4 tab:px-10 rounded-[20px] tab:h-[] overflow-hidden"
       >
         <div
           class="w-full tab:flex-1 flex flex-col items-start justify-start gap-4 py-20"
@@ -39,11 +39,12 @@
             </RouterLink>
           </div>
         </div>
-        <div class="w-full tab:flex-1">
+        <div class="w-full tab:flex-1 flex items-center justify-center relative">
+          <div></div>
           <img
             src="@/assets/images/phone.svg"
             alt="phone"
-            class="w-[330px] max-w-full"
+            class="w-[330px] max-w-full absolute top-[90px]"
           />
         </div>
       </div>
