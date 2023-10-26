@@ -15,7 +15,9 @@
           Senectus et netus et malesuada fames ac turpis. Sagittis vitae et leo
           duis ut diam.
         </p>
-        <div class="relative flex flex-col items-center justify-center pt-32 sm:pt-48">
+        <div
+          class="relative flex flex-col items-center justify-center pt-32 sm:pt-48"
+        >
           <img
             src="../../assets/images/card1.svg"
             alt="card"
@@ -32,9 +34,23 @@
             class="absolute top-[0%]"
           />
         </div>
+        <div class="w-full flex items-center justify-center gap-6 mt-4">
+          <RouterLink to="/">
+            <button type="button" class="btn bg-primary text-white">
+              Open Account
+            </button>
+          </RouterLink>
+          <RouterLink to="/">
+            <button type="button" class="btn bg-white text-dark border border-bordergray">
+              Compare Cards
+            </button>
+          </RouterLink>
+        </div>
       </div>
     </div>
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import { RouterLink } from "vue-router";
+</script>
