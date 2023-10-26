@@ -35,11 +35,15 @@
                 Open Account
               </button>
             </RouterLink>
-            <RouterLink to="/">
-              <button type="button" class="btn text-primary gap-4">
+            <RouterLink to="/" class="group">
+              <div class="text-primary flex items-center gap-2">
                 Compare Cards
-                <img src="@/assets/icons/right_arrowIcon.svg" alt="arrow" />
-              </button>
+                <img
+                  src="@/assets/icons/right_arrowIcon.svg"
+                  alt="arrow"
+                  class="group-hover:translate-x-3 transition-all duration-300"
+                />
+              </div>
             </RouterLink>
           </div>
         </div>
