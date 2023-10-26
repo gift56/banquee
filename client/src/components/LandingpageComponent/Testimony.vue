@@ -8,8 +8,11 @@
         <div
           class="w-full flex flex-col md:flex-row items-center justify-between gap-6"
         >
-      
-      </div>
+          <h3 class="headingtext2">
+            People all over the<br class="hidden tab:block" />
+            world use banko.
+          </h3>
+        </div>
       </div>
     </div>
   </section>
