@@ -43,7 +43,7 @@
           <div
             v-for="(faq, index) in faqList"
             :key="faq.id"
-            class="w-full flex flex-col items-start justify-start py-4 border-b border-red-500 transition-all duration-300"
+            class="w-full flex flex-col items-start justify-start py-4 border-b border-bordergray transition-all duration-300"
           >
             <div
               @click="toggleFaq(index)"
@@ -55,7 +55,8 @@
               <img
                 src="@/assets/icons/plusIcon.svg"
                 alt="plusIcon"
-                :class="{ 'rotate-45': faq.open }"
+                :class="{ 'rotate-45 transition-all duration-300': faq.open }"
+                class="transition-all duration-300"
               />
             </div>
           </div>
