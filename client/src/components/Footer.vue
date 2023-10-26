@@ -40,7 +40,7 @@
           class="w-full flex items-center justify-center gap-5 pt-2 border-t border-bordergray mt-8"
         >
           <p class="text-sm font-medium text-dark/50">
-            © Made by <span class="text-primary">Efe Gift</span> - Powered by
+            &copy; Made by <span class="text-primary">Efe Gift</span> - Powered by
             <span class="text-primary">Vuejs</span>
           </p>
         </div>
