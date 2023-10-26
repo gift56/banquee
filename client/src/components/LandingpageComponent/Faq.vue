@@ -59,7 +59,11 @@
                 class="transition-all duration-300"
               />
             </div>
-            <p class="mt-4 text-sm md:text-base text-dark/50">{{ faq.answer }}</p>
+            <div v-if="faq.open" class="faq-answer">
+              <p class="mt-4 text-sm md:text-base text-dark/50">
+                {{ faq.answer }}
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -78,3 +82,19 @@ const toggleFaq = (index) => {
   faqList.value[index].open = !faqList.value[index].open;
 };
 </script>
+
+<style>
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.faq-answer p {
+  margin-top: 0;
+}
+
+.faq-answer.active {
+  max-height: 1000px; /* Adjust this value to a suitable maximum height */
+}
+</style>
