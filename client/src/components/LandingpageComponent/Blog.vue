@@ -22,6 +22,9 @@
             class="w-full flex flex-col items-start justify-start gap-4"
           >
             <img :src="blog.blogImage" :alt="blog.blogHeadline" class="w-full aspect-square rounded-2xl" />
+            <div class="flex flex-col items-start justify-start gap-3 w-full">
+              
+            </div>
           </div>
         </div>
       </div>
