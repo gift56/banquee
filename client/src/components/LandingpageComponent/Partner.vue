@@ -9,6 +9,10 @@
           Perfect card <br class="hidden tab:block" />
           for your needs.
         </h2>
+        <p class="text-base font-medium text-dark md:text-xl tab:max-w-[500px] text-center">
+          Senectus et netus et malesuada fames ac turpis. Sagittis vitae et leo
+          duis ut diam.
+        </p>
       </div>
     </div>
   </section>
