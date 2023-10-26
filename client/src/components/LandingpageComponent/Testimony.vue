@@ -12,6 +12,11 @@
             People all over the<br class="hidden tab:block" />
             world use banko.
           </h3>
+          <div class="flex items-center justify-end gap-2">
+            <div>
+              <img src="" alt="">
+            </div>
+          </div>
         </div>
       </div>
     </div>

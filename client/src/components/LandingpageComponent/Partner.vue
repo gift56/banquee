@@ -19,17 +19,17 @@
           class="relative flex flex-col items-center justify-center pt-32 sm:pt-48"
         >
           <img
-            src="../../assets/images/card1.svg"
+            src="@/assets/images/card1.svg"
             alt="card"
             class="relative z-30"
           />
           <img
-            src="../../assets/images/card2.svg"
+            src="@/assets/images/card2.svg"
             alt="card"
             class="absolute top-[20%] z-10"
           />
           <img
-            src="../../assets/images/card3.svg"
+            src="@/assets/images/card3.svg"
             alt="card"
             class="absolute top-[0%]"
           />
