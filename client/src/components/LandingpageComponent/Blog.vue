@@ -15,6 +15,9 @@
             </div>
           </RouterLink>
         </div>
+        <div class="w-full grid sm:grid-cols-2 tab:grid-cols-3 gap-4">
+          <div v-for="blog in blogData" :key="blog.blogHeadline"></div>
+        </div>
       </div>
     </div>
   </section>
@@ -22,4 +25,5 @@
 
 <script setup>
 import { RouterLink } from "vue-router";
+import { blogData } from "../../utils/constant";
 </script>
