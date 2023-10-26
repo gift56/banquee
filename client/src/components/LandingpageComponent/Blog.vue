@@ -6,7 +6,7 @@
           <h3 class="headingtext2">Blog</h3>
           <RouterLink to="/" class="group">
             <div class="text-primary flex items-center gap-2">
-              All Features
+              All Articles
               <img
                 src="@/assets/icons/right_arrowIcon.svg"
                 alt="arrow"
@@ -21,7 +21,5 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router';
-
-
+import { RouterLink } from "vue-router";
 </script>
