@@ -41,11 +41,12 @@
         </div>
         <div class="w-full tab:flex-1 flex flex-col items-start justify-start">
           <div
-            v-for="faq in faqList"
+            v-for="(faq, index) in faqList"
             :key="faq.id"
             class="w-full flex flex-col items-start justify-start py-4 border-b border-red-500 transition-all duration-300"
           >
             <div
+              @click="toggleFaq(index)"
               class="w-full flex items-center justify-between gap-3 cursor-pointer select-none"
             >
               <h2 class="text-base font-medium text-dark md:text-xl font-dm">
