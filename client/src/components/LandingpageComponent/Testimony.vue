@@ -39,6 +39,8 @@
                 :key="star"
               />
             </div>
+            <h4 class="text-lg font-medium text-dark font-dm md:text-2xl xl:text-3xl">{{ testimony.headline }}</h4>
+            <p class="text-sm font-medium text-dark">{{ testimony.detail }}</p>
           </div>
         </div>
       </div>
