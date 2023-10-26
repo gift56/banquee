@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-white py-10">
-    <div class="container">
+    <div class="headerNav">
       <div
         class="w-full flex flex-col md:flex-row gap-6 items-start justify-between"
       >
