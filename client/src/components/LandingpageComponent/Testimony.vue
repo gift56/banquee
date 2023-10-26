@@ -5,6 +5,11 @@
         <h6 class="text-base font-medium text-dark md:text-xl font-dm">
           Testimonials
         </h6>
+        <div
+          class="w-full flex flex-col md:flex-row items-center justify-between gap-6"
+        >
+      
+      </div>
       </div>
     </div>
   </section>
