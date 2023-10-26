@@ -23,7 +23,7 @@
           >
             <img :src="blog.blogImage" :alt="blog.blogHeadline" class="w-full aspect-square rounded-2xl" />
             <div class="flex flex-col items-start justify-start gap-3 w-full">
-              
+              <h3 class=""></h3>
             </div>
           </div>
         </div>
