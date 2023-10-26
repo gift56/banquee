@@ -15,7 +15,7 @@
           Senectus et netus et malesuada fames ac turpis. Sagittis vitae et leo
           duis ut diam.
         </p>
-        <div class="relative flex flex-col items-center justify-center pt-48">
+        <div class="relative flex flex-col items-center justify-center pt-32 sm:pt-48">
           <img
             src="../../assets/images/card1.svg"
             alt="card"
