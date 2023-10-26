@@ -4,7 +4,7 @@
       <div
         class="w-full flex flex-col md:flex-row gap-6 items-start justify-between"
       >
-        <div class="flex flex-col items-start justify-start w-full">
+        <div class="flex flex-col items-start justify-start w-full sm:w-[50%]">
           <RouterLink to="/" class="select-none">
             <h2 class="font-dm text-2xl font-bold text-primary md:text-2xl">
               banquee.
@@ -12,7 +12,7 @@
           </RouterLink>
         </div>
         <div
-          class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
+          class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
         >
           <div
             v-for="footerLink in footerLinks"
@@ -22,6 +22,14 @@
             <h4 class="text-base font-medium text-dark font-dm md:text-lg">
               {{ footerLink.title }}
             </h4>
+            <nav class="w-full flex flex-col items-start justify-start gap-4">
+              <RouterLink
+                :to="link.href"
+                v-for="link in footerLink.footerLinks"
+                class="text-sm font-medium md:text-base text-dark/50 hover:text-primary transition-all duration-300"
+                >{{ link.text }}</RouterLink
+              >
+            </nav>
           </div>
         </div>
       </div>
