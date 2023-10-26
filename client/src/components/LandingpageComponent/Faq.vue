@@ -28,6 +28,16 @@
               </div>
             </div>
           </div>
+          <RouterLink to="/" class="group">
+            <div class="text-primary flex items-center gap-2">
+              Compare Cards
+              <img
+                src="@/assets/icons/right_arrowIcon.svg"
+                alt="arrow"
+                class="group-hover:translate-x-3 transition-all duration-300"
+              />
+            </div>
+          </RouterLink>
         </div>
         <div
           class="w-full tab:flex-1 flex flex-col items-start justify-start gap-4"
@@ -37,4 +47,6 @@
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import { RouterLink } from 'vue-router';
+</script>
