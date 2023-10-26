@@ -16,7 +16,9 @@
           </RouterLink>
         </div>
         <div class="w-full grid sm:grid-cols-2 tab:grid-cols-3 gap-4">
-          <div v-for="blog in blogData" :key="blog.blogHeadline"></div>
+          <div v-for="blog in blogData" :key="blog.blogHeadline" class="">
+          
+          </div>
         </div>
       </div>
     </div>
