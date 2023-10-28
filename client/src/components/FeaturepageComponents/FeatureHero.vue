@@ -1,9 +1,9 @@
 <template>
   <section
-    class="w-full tab:h-screen tab:overflow-hidden bg-featureBg flex items-center justify-center flex-col"
+    class="w-full tab:overflow-hidden bg-featureBg flex items-center justify-center flex-col"
   >
     <div
-      class="w-full h-full flex flex-col justify-between items-center pt-16 tab:pt-20"
+      class="w-full h-full flex flex-col justify-between items-center py-16 gap-10 tab:pt-20 tab:pb-0"
     >
       <div class="flex flex-col items-center justify-center w-[90%] mx-auto">
         <h4
@@ -41,10 +41,25 @@
           </RouterLink>
         </div>
       </div>
+      <div class="w-full hidden tab:flex items-end justify-between gap-6">
+        <img src="@/assets/images/featureHeroCard2.svg" alt="herocard" class="rounded-tr-3xl rounded-tl-3xl" />
+        <img
+          src="@/assets/images/featureHeroCard3.svg"
+          alt="herocard"
+          class="tab:hidden lg:inline-block rounded-tr-3xl rounded-tl-3xl"
+        />
+        <img src="@/assets/images/featureHeroCard1.svg" alt="herocard" class="rounded-tr-3xl rounded-tl-3xl" />
+        <img src="@/assets/images/featureHeroCard3.svg" alt="herocard" class="rounded-tr-3xl rounded-tl-3xl" />
+        <img
+          src="@/assets/images/featureHeroCard2.svg"
+          alt="herocard"
+          class="tab:hidden lg:inline-block rounded-tr-3xl rounded-tl-3xl"
+        />
+      </div>
     </div>
   </section>
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router';
+import { RouterLink } from "vue-router";
 </script>
