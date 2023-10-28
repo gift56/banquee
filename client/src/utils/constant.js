@@ -384,7 +384,7 @@ export const featurePricingData = [
   },
   {
     headline: "Gold",
-    price: "Free",
+    price: "$10",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     cardImage: cardImage1,
   },
