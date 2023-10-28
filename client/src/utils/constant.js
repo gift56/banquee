@@ -293,7 +293,7 @@ export const footerLinks = [
         text: "Pricing",
       },
       {
-        href: "/",
+        href: "/support",
         text: "Support",
       },
     ],
@@ -302,7 +302,7 @@ export const footerLinks = [
     title: "Blog",
     footerLinks: [
       {
-        href: "/",
+        href: "/blog#products",
         text: "Products",
       },
       {
