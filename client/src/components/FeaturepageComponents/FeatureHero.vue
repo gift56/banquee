@@ -5,7 +5,7 @@
     <div
       class="flex flex-col items-center justify-center gap-6 w-[90%] mx-auto"
     >
-      <h4>Features</h4>
+      <h4 class="text-lg text-dark font-medium font-dm md:text-xl">Features</h4>
     </div>
   </section>
 </template>
