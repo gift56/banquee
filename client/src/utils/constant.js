@@ -374,6 +374,18 @@ export const featurePricingData = [
     headline: "Basic",
     price: "Free",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    cardImage: cardImage2,
+    cardImage: cardImage3,
+  },
+  {
+    headline: "Premium",
+    price: "Free",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    cardImage: cardImage3,
+  },
+  {
+    headline: "Basic",
+    price: "Free",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    cardImage: cardImage3,
   },
 ];
