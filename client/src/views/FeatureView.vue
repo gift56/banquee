@@ -1,5 +1,5 @@
 <template>
-  <div>Fetaure</div>
+  <main>Fetaure</main>
 </template>
 
 <script>
