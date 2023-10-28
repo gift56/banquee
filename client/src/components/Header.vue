@@ -94,7 +94,7 @@ onUnmounted(() => {
 
 const navLinks = [
   {
-    href: "/",
+    href: "/feature",
     text: "Features",
   },
   {
