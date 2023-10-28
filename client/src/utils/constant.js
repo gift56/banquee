@@ -306,11 +306,11 @@ export const footerLinks = [
         text: "Products",
       },
       {
-        href: "/",
+        href: "/blog#products",
         text: "Technology",
       },
       {
-        href: "/",
+        href: "/blog#products",
         text: "Crypto",
       },
     ],
