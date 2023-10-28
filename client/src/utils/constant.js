@@ -21,6 +21,9 @@ import partnerImage10 from "../assets/icons/partner10Icon.svg";
 import blogImage1 from "../assets/images/blogImage1.png";
 import blogImage2 from "../assets/images/blogImage2.png";
 import blogImage3 from "../assets/images/blogImage3.png";
+import cardImage1 from "../assets/images/card1.svg";
+import cardImage2 from "../assets/images/card2.svg";
+import cardImage3 from "../assets/images/card3.svg";
 
 export const heroFeatures = [
   "Instant Transfer",
@@ -348,5 +351,29 @@ export const footerLinks = [
         text: "Instagram",
       },
     ],
+  },
+];
+
+export const featureBank = [
+  {
+    title: "Easy integration",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    title: "Saving accounts",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    title: "Instant transactions",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+];
+
+export const featurePricingData = [
+  {
+    headline: "Basic",
+    price: "Free",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    cardImage:
   },
 ];
