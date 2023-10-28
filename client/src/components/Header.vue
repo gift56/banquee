@@ -98,19 +98,15 @@ const navLinks = [
     text: "Features",
   },
   {
-    href: "/",
+    href: "/compare",
     text: "Compare",
   },
   {
-    href: "/",
+    href: "/support",
     text: "Support",
   },
   {
-    href: "/",
-    text: "Support",
-  },
-  {
-    href: "/",
+    href: "/blog",
     text: "Blog",
   },
 ];
