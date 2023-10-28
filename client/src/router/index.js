@@ -34,7 +34,7 @@ const router = createRouter({
       component: SupportView,
     },
     {
-      path: "/blog/blogId",
+      path: "/blog/:blogId",
       name: "blog_detial",
       component: BlogView,
     },
