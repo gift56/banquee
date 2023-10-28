@@ -285,11 +285,11 @@ export const footerLinks = [
     title: "About",
     footerLinks: [
       {
-        href: "/",
+        href: "/feature",
         text: "Features",
       },
       {
-        href: "/",
+        href: "/feature#pricing",
         text: "Pricing",
       },
       {
