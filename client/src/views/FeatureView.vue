@@ -1,9 +1,9 @@
 <template>
-  <main>Fetaure</main>
+  <main>
+    <FeatureHero />
+  </main>
 </template>
 
-<script>
-export default {
-  name: "FeatureView",
-};
+<script setup>
+import FeatureHero from "../components/FeaturepageComponents/FeatureHero.vue";
 </script>
