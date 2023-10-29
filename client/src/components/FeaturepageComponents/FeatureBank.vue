@@ -36,8 +36,17 @@
           <div
             class="w-full tab:flex-1 flex flex-col items-center justify-start gap-5 h-[370px] overflow-hidden rounded-[20px] bg-navhover pt-10 px-4 relative"
           >
-        
-        </div>
+            <h3
+              class="text-2xl text-center md:text-3xl tab:text-4xl font-dm font-medium text-dark"
+            >
+              Statistics
+            </h3>
+            <p
+              class="text-base font-medium text-dark/50 text-center md:text-lg tab:max-w-[80%]"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+            </p>
+          </div>
         </div>
       </div>
     </div>
