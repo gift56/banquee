@@ -2,9 +2,14 @@
   <section class="w-full">
     <div class="container">
       <div class="w-full flex flex-col items-center justify-center gap-6 py-16">
-        <div>
+        <div class="flex flex-col gap-4">
           <h2 class="headingtext2 text-center">All in one bank. Really.</h2>
-          <p></p>
+          <p
+            class="text-base font-medium text-dark md:text-xl tab:max-w-[500px] text-center"
+          >
+            Senectus et netus et malesuada fames ac turpis. Sagittis vitae et
+            leo duis ut diam.
+          </p>
         </div>
       </div>
     </div>
