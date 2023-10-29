@@ -47,7 +47,21 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
             </p>
             <div class="w-full flex items-end justify-between gap-5">
-              
+              <img
+                src="@/assets/images/featureHeroCard3.svg"
+                alt="herocard"
+                class="rounded-tr-3xl rounded-tl-3xl hidden tab:inline-block tab:w-[35%] -translate-x-5 lg:-translate-y-5"
+              />
+              <img
+                src="@/assets/images/featureHeroCard1.svg"
+                alt="herocard"
+                class="rounded-tr-3xl rounded-tl-3xl mx-auto w-[80%] tab:w-[40%] -translate-x-5"
+              />
+              <img
+                src="@/assets/images/featureHeroCard2.svg"
+                alt="herocard"
+                class="rounded-tr-3xl rounded-tl-3xl hidden tab:inline-block tab:w-[45%] -translate-x-5  lg:-translate-y-5"
+              />
             </div>
           </div>
         </div>
