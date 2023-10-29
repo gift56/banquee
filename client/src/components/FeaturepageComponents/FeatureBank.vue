@@ -1,5 +1,5 @@
 <template>
-  <section>Bank</section>
+  <section class="w-full">Bank</section>
 </template>
 
 <script setup></script>
