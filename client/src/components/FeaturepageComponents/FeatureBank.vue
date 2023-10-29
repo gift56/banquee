@@ -11,6 +11,9 @@
             leo duis ut diam.
           </p>
         </div>
+        <div class="w-full flex flex-col items-center justify-between tab:flex-row gap-6">
+          
+        </div>
       </div>
     </div>
   </section>
