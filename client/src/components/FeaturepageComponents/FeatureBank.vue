@@ -1,5 +1,9 @@
 <template>
-  <section class="w-full">Bank</section>
+  <section class="w-full">
+    <div class="container">
+      
+    </div>
+  </section>
 </template>
 
 <script setup></script>
