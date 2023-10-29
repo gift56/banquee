@@ -47,7 +47,7 @@
             class="max-w-full w-full tab:max-w-[80%] tab:w-[80%] py-2 px-4 bg-navhover rounded-[10px] flex items-center justify-between gap-5"
           >
             <div class="flex items-start justify-start gap-4">
-              <img src="../../assets/icons/bankcoIcon.svg" alt="bankco" />
+              <img src="@/assets/icons/bankcoIcon.svg" alt="bankco" />
               <div class="flex flex-col items-start justify-start">
                 <h4 class="font-dm font-bold text-base md:text-lg text-dark">
                   {{ item.heading }}
