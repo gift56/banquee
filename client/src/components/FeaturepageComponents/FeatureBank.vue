@@ -11,8 +11,13 @@
             leo duis ut diam.
           </p>
         </div>
-        <div class="w-full flex flex-col items-center justify-between tab:flex-row gap-6">
-          
+        <div
+          class="w-full flex flex-col items-center justify-between tab:flex-row gap-6"
+        >
+          <div
+            class="w-full tab:flex-1 flex flex-col items-center justify-center gap-5 overflow-hidden rounded-[20px]"
+          ></div>
+          <div></div>
         </div>
       </div>
     </div>
