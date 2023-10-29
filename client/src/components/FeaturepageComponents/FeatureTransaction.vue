@@ -6,9 +6,9 @@
           class="w-full tab:flex-1 flex flex-col items-start justify-start gap-5"
         >
           <h4 class="text-base font-medium font-dm text-dark md:text-xl">
-            {{ props.headline }}
+            {{ props.data.headline }}
           </h4>
-          <h2 class="headingtext2">Send & receive money instantly</h2>
+          <h2 class="headingtext2">{{ props.data.pageTitle }}</h2>
           <p class="text-sm font-medium text-dark md:text-base">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequat duis enim velit mollit. Exercitation
@@ -30,7 +30,7 @@
         </div>
         <div class="w-full tab:flex-1 flex items-center justify-center">
           <img
-            src="../../assets/images/phone.svg"
+            :src="props.data.pageImage"
             alt="phone"
             class="w-[330px] max-w-full"
           />
@@ -41,6 +41,6 @@
 </template>
 
 <script setup>
-const props = defineProps(['data'])
+const props = defineProps(["data"]);
 import { receiveFeature } from "../../utils/constant";
 </script>
