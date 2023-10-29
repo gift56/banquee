@@ -14,12 +14,32 @@
             sint. Velit officia consequat duis enim velit mollit. Exercitation
             veniam consequat sunt nostrud amet.
           </p>
-          
+          <div class="flex flex-col items-start justify-start gap-3">
+            <div
+              v-for="feature in receiveFeature"
+              :key="feature"
+              class="flex items-center justify-start gap-3 w-full"
+            >
+              <img src="@/assets/icons/badgeIcon.svg" alt="icon" />
+              <span
+                class="text-sm md:text-base font-medium text-dark tab:text-lg"
+                >{{ feature }}</span
+              >
+            </div>
+          </div>
         </div>
-        <div class="w-full tab:flex-1"></div>
+        <div class="w-full tab:flex-1 flex items-center justify-center">
+          <img
+            src="../../assets/images/phone.svg"
+            alt="phone"
+            class="w-[330px] max-w-full"
+          />
+        </div>
       </div>
     </div>
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import { receiveFeature } from "../../utils/constant";
+</script>
