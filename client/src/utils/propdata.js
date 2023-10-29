@@ -12,16 +12,16 @@ export const sendAndReceivePropData = [
   {
     headline: "Transactions",
     pageTitle: "Send & receive money instantly",
-    pageImage: phone1Image,
+    pageImage: phone2Image,
   },
   {
     headline: "Transactions",
     pageTitle: "Send & receive money instantly",
-    pageImage: phone1Image,
+    pageImage: phone3Image,
   },
   {
     headline: "Transactions",
     pageTitle: "Send & receive money instantly",
-    pageImage: phone1Image,
+    pageImage: phone4Image,
   },
 ];
