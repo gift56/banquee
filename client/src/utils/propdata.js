@@ -6,5 +6,22 @@ import phone4Image from "../assets/images/phoneFeature.svg";
 export const sendAndReceivePropData = [
   {
     headline: "Transactions",
+    pageTitle: "Send & receive money instantly",
+    pageImage: phone1Image,
+  },
+  {
+    headline: "Transactions",
+    pageTitle: "Send & receive money instantly",
+    pageImage: phone1Image,
+  },
+  {
+    headline: "Transactions",
+    pageTitle: "Send & receive money instantly",
+    pageImage: phone1Image,
+  },
+  {
+    headline: "Transactions",
+    pageTitle: "Send & receive money instantly",
+    pageImage: phone1Image,
   },
 ];
