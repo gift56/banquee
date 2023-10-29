@@ -3,7 +3,8 @@
     <div class="container">
       <div class="w-full flex flex-col items-center justify-center gap-6 py-16">
         <div>
-          <h2>All in one bank. Really.</h2>
+          <h2 class="headingtext2 text-center">All in one bank. Really.</h2>
+          <p></p>
         </div>
       </div>
     </div>
