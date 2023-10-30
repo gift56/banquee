@@ -19,9 +19,12 @@
             <h6 class="text-base font-medium text-dark md:text-xl font-dm">
               Tools
             </h6>
-            <h2 class="headingtext2">Seemless integration</h2>
+            <h2 class="headingtext2">
+              Seemless <br class="hidden lg:block" />
+              integration
+            </h2>
             <p
-              class="text-base font-medium text-dark md:text-xl tab:max-w-[500px] text-center mb-10"
+              class="text-base font-medium text-dark md:text-xl tab:max-w-[500px]"
             >
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
