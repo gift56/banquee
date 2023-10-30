@@ -13,7 +13,7 @@
           />
         </div>
         <div
-          class="w-full flex flex-col tab:flex-row items-start justify-between gap-6"
+          class="w-full flex flex-col tab:flex-row items-end justify-between gap-6"
         >
           <div class="w-full flex flex-col items-start justify-start gap-6">
             <h6 class="text-base font-medium text-dark md:text-xl font-dm">
@@ -30,7 +30,19 @@
               amet sint. Velit officia consequat duis enim velit mollit.
             </p>
           </div>
-          <div></div>
+          <div class="w-full flex flex-col items-center justify-start gap-6">
+            <div
+              v-for="feature in integrationFeature"
+              :key="feature"
+              class="flex items-center justify-start gap-3 w-full"
+            >
+              <img src="@/assets/icons/badgeIcon.svg" alt="icon" />
+              <span
+                class="text-sm md:text-base font-medium text-dark tab:text-lg"
+                >{{ feature }}</span
+              >
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -38,5 +50,5 @@
 </template>
 
 <script setup>
-import { clientsImages } from "../../utils/constant";
+import { clientsImages, integrationFeature } from "../../utils/constant";
 </script>
