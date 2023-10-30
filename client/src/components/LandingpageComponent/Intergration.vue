@@ -12,6 +12,17 @@
             v-for="clientImage in clientsImages"
           />
         </div>
+        <div
+          class="w-full flex flex-col tab:flex-row items-start justify-between gap-6"
+        >
+          <div class="w-full flex flex-col items-start justify-start gap-6">
+            <h6 class="text-base font-medium text-dark md:text-xl font-dm">
+              Tools
+            </h6>
+            <h2 class="headingtext2">Seemless integration</h2>
+          </div>
+          <div></div>
+        </div>
       </div>
     </div>
   </section>
