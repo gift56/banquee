@@ -20,6 +20,12 @@
               Tools
             </h6>
             <h2 class="headingtext2">Seemless integration</h2>
+            <p
+              class="text-base font-medium text-dark md:text-xl tab:max-w-[500px] text-center mb-10"
+            >
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
           </div>
           <div></div>
         </div>
