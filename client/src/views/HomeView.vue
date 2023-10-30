@@ -9,6 +9,7 @@ import Testimony from "../components/LandingpageComponent/Testimony.vue";
 import BankingApp from "../components/LandingpageComponent/BankingApp.vue";
 import Faq from "../components/LandingpageComponent/Faq.vue";
 import Blog from "../components/LandingpageComponent/Blog.vue";
+import Intergration from "../components/LandingpageComponent/Intergration.vue";
 </script>
 
 <template>
@@ -18,6 +19,7 @@ import Blog from "../components/LandingpageComponent/Blog.vue";
     <SendAndReceive />
     <Organize />
     <Notified />
+    <Intergration />
     <Partner />
     <Testimony />
     <BankingApp />
