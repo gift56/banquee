@@ -21,8 +21,14 @@
             class="w-full flex flex-col items-center justify-center gap-6"
           >
             <div class="flex items-center justify-center gap-2">
-              <h4 class="text-base font-medium text-dark md:text-xl font-dm">{{ cardItem.headline }}</h4>
-              <span class="w-fit px-2 py-1 text-primary bg-featureBg rounded text-xs font-medium text-center">Popular</span>
+              <h4 class="text-base font-medium text-dark md:text-xl font-dm">
+                {{ cardItem.headline }}
+              </h4>
+              <span
+                class="w-fit px-2 py-1 text-primary bg-featureBg rounded text-xs font-medium text-center"
+                v-if="cardItem.price === 'Free'"
+                >Popular</span
+              >
             </div>
           </div>
         </div>
