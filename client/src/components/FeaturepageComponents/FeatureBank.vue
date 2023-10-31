@@ -81,11 +81,19 @@
                 <br class="hidden tab:block" />
                 integration
               </h3>
-              <p
-                class="text-base font-medium text-dark/50 md:text-lg"
-              >
+              <p class="text-base font-medium text-dark/50 md:text-lg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
+              <div
+                class="w-full flex flex-wrap gap-x-6 gap-y-3 items-center justify-center md:items-start md:justify-start tab:max-w-[50%]"
+              >
+                <img
+                  :src="clientImage"
+                  alt="client_photo"
+                  class="w-[86px] aspect-video object-contain"
+                  v-for="clientImage in clientsImages"
+                />
+              </div>
             </div>
           </div>
           <div
@@ -100,9 +108,7 @@
                 Saving <br class="hidden tab:block" />
                 accounts
               </h3>
-              <p
-                class="text-base font-medium text-dark/50 md:text-lg"
-              >
+              <p class="text-base font-medium text-dark/50 md:text-lg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
@@ -119,9 +125,7 @@
                 Instant <br class="hidden tab:block" />
                 transactions
               </h3>
-              <p
-                class="text-base font-medium text-dark/50 md:text-lg"
-              >
+              <p class="text-base font-medium text-dark/50 md:text-lg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
