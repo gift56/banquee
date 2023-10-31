@@ -36,8 +36,17 @@
               >
                 {{ cardItem.price }}
               </h3>
-              <span class="text-sm font-medium text-dark/50 md:text-base" v-if="cardItem.price !== 'Free'">per month</span>
+              <span
+                class="text-sm font-medium text-dark/50 md:text-base"
+                v-if="cardItem.price !== 'Free'"
+                >per month</span
+              >
             </div>
+            <p
+              class="text-sm font-medium text-dark/50 md:text-base text-center tab:max-w-[220px]"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
           </div>
         </div>
       </div>
