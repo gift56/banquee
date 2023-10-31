@@ -30,6 +30,7 @@
                 >Popular</span
               >
             </div>
+            <h3 class="text-2xl text-dark text-center sm:text-3xl tab:text-4xl font-bold">{{ cardItem.price }}</h3>
           </div>
         </div>
       </div>
