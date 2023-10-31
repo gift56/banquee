@@ -69,7 +69,7 @@
           class="w-full flex flex-col items-center justify-between tab:flex-row gap-6"
         >
           <div
-            class="w-full flex flex-col items-start justify-start gap-5 h-[570px] overflow-hidden rounded-[20px] bg-navhover pt-10 px-4 relative"
+            class="w-full flex flex-col items-start justify-between gap-5 h-[570px] overflow-hidden rounded-[20px] bg-navhover pt-10 px-4 relative"
           >
             <div
               class="w-full flex flex-col items-start justify-start gap-5 h-[570px] overflow-hidden rounded-[20px] bg-navhover pt-8 px-4 relative"
@@ -84,15 +84,12 @@
               <p class="text-base font-medium text-dark/50 md:text-lg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
-              <div
-                class="w-full flex flex-wrap gap-x-6 gap-y-3 items-center justify-center md:items-start md:justify-start tab:max-w-[50%]"
-              >
-                <img
-                  :src="clientImage"
-                  alt="client_photo"
-                  class="w-[86px] aspect-video object-contain"
-                  v-for="clientImage in clientsImages"
-                />
+            </div>
+            <div
+              class="w-full grid grid-cols-4 gap-x-6 gap-y-3 items-center justify-center md:items-start md:justify-start"
+            >
+              <div v-for="clientImage in clientsImages" class="bg-white py-2">
+                <img :src="clientImage" alt="client_photo" class="w-full" />
               </div>
             </div>
           </div>
@@ -136,4 +133,6 @@
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import { clientsImages } from "../../utils/constant";
+</script>
