@@ -98,7 +98,7 @@
             </div>
           </div>
           <div
-            class="w-full flex flex-col items-start justify-start gap-5 h-[500px] overflow-hidden rounded-[20px] bg-navhover pt-10 px-4 relative"
+            class="w-full flex flex-col items-start justify-between gap-5 h-[500px] overflow-hidden rounded-[20px] bg-navhover pt-10 px-4 relative"
           >
             <div
               class="w-full flex flex-col items-start justify-start gap-5 h-[570px] overflow-hidden rounded-[20px] bg-navhover pt-8 px-4 relative"
@@ -112,35 +112,35 @@
               <p class="text-base font-medium text-dark/50 md:text-lg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
+            </div>
+            <div
+              class="w-full mt-6 grid grid-cols-1 md:grid-cols-2 items-start justify-start gap-6"
+            >
               <div
-                class="w-full mt-6 grid grid-cols-1 md:grid-cols-2 items-start justify-start gap-6"
+                v-for="item in organizeFeature.slice(0, 2)"
+                :key="item.product"
+                class="w-full flex flex-col items-start justify-start gap-4"
               >
-                <div
-                  v-for="item in organizeFeature.slice(0, 2)"
-                  :key="item.product"
-                  class="w-full flex flex-col items-start justify-start gap-4"
-                >
-                  <img
-                    :src="item.featureImage"
-                    :alt="item.product"
-                    class="w-full"
-                  />
-                  <div>
-                    <h3
-                      class="text-base font-medium text-dark md:text-xl font-dm"
-                    >
-                      {{ item.product }}
-                    </h3>
-                    <p class="text-sm font-medium md:text-base text-dark/50">
-                      {{ item.price }}
-                    </p>
-                  </div>
+                <img
+                  :src="item.featureImage"
+                  :alt="item.product"
+                  class="w-full"
+                />
+                <div>
+                  <h3
+                    class="text-base font-medium text-dark md:text-xl font-dm"
+                  >
+                    {{ item.product }}
+                  </h3>
+                  <p class="text-sm font-medium md:text-base text-dark/50">
+                    {{ item.price }}
+                  </p>
                 </div>
               </div>
             </div>
           </div>
           <div
-            class="w-full flex flex-col items-center justify-start gap-5 h-[570px] overflow-hidden rounded-[20px] bg-navhover pt-10 px-4 relative"
+            class="w-full flex flex-col items-center justify-between gap-5 h-[500px] overflow-hidden rounded-[20px] bg-navhover pt-10 px-4 relative"
           >
             <div
               class="w-full flex flex-col items-start justify-start gap-5 h-[570px] overflow-hidden rounded-[20px] bg-navhover pt-8 px-4 relative"
@@ -155,6 +155,33 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
+            <div class="w-full flex flex-col gap-5 items-center justify-center">
+              <div
+                v-for="product in receiveData.slice(0, 3)"
+                class="max-w-full w-full py-2 px-4 bg-white rounded-[10px] flex items-center justify-between gap-5"
+              >
+                <div class="flex items-start justify-start gap-4">
+                  <span
+                    class="w-12 h-12 rounded-lg bg-primary text-white text-2xl flex items-center justify-center"
+                  >
+                    <i :class="product.icon"></i>
+                  </span>
+                  <div class="flex flex-col items-start justify-start">
+                    <h4
+                      class="font-dm font-medium text-base md:text-lg text-dark"
+                    >
+                      {{ product.productBrand }}
+                    </h4>
+                    <p class="text-sm font-medium md:text-base text-dark/50">
+                      {{ product.product }}
+                    </p>
+                  </div>
+                </div>
+                <p class="font-dm text-medium text-base md:text-lg text-dark">
+                  {{ product.price }}
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -163,5 +190,9 @@
 </template>
 
 <script setup>
-import { clientsImages, organizeFeature } from "../../utils/constant";
+import {
+  clientsImages,
+  organizeFeature,
+  receiveData,
+} from "../../utils/constant";
 </script>
