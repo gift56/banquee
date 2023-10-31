@@ -112,6 +112,31 @@
               <p class="text-base font-medium text-dark/50 md:text-lg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
+              <div
+                class="w-full mt-6 grid grid-cols-1 md:grid-cols-2 items-start justify-start gap-6"
+              >
+                <div
+                  v-for="item in organizeFeature.slice(0, 2)"
+                  :key="item.product"
+                  class="w-full flex flex-col items-start justify-start gap-4"
+                >
+                  <img
+                    :src="item.featureImage"
+                    :alt="item.product"
+                    class="w-full"
+                  />
+                  <div>
+                    <h3
+                      class="text-base font-medium text-dark md:text-xl font-dm"
+                    >
+                      {{ item.product }}
+                    </h3>
+                    <p class="text-sm font-medium md:text-base text-dark/50">
+                      {{ item.price }}
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div
@@ -138,5 +163,5 @@
 </template>
 
 <script setup>
-import { clientsImages } from "../../utils/constant";
+import { clientsImages, organizeFeature } from "../../utils/constant";
 </script>
