@@ -9,7 +9,8 @@
             :src="clientImage"
             alt="client_photo"
             class="w-[86px] aspect-video object-contain"
-            v-for="clientImage in clientsImages"
+            v-for="(clientImage, index) in clientsImages"
+            :key="index"
           />
         </div>
         <div
