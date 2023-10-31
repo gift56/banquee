@@ -6,6 +6,7 @@
     </section>
     <FeatureBank />
     <FeatureCard />
+    <BankingApp />
   </main>
 </template>
 
@@ -14,5 +15,6 @@ import FeatureBank from "../components/FeaturepageComponents/FeatureBank.vue";
 import FeatureCard from "../components/FeaturepageComponents/FeatureCard.vue";
 import FeatureHero from "../components/FeaturepageComponents/FeatureHero.vue";
 import FeatureTransaction from "../components/FeaturepageComponents/FeatureTransaction.vue";
+import BankingApp from "../components/LandingpageComponent/BankingApp.vue";
 import { PropData } from "../utils/propdata";
 </script>
