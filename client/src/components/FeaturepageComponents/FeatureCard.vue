@@ -19,7 +19,12 @@
             v-for="cardItem in featurePricingData"
             :key="cardItem.price"
             class="w-full flex flex-col items-center justify-center gap-6"
-          ></div>
+          >
+            <div class="flex items-center justify-center gap-2">
+              <h4 class="text-base font-medium text-dark md:text-xl font-dm">{{ cardItem.headline }}</h4>
+              <span></span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
