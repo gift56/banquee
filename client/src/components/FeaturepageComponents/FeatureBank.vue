@@ -98,7 +98,7 @@
             </div>
           </div>
           <div
-            class="w-full flex flex-col items-start justify-start gap-5 h-[570px] overflow-hidden rounded-[20px] bg-navhover pt-10 px-4 relative"
+            class="w-full flex flex-col items-start justify-start gap-5 h-[500px] overflow-hidden rounded-[20px] bg-navhover pt-10 px-4 relative"
           >
             <div
               class="w-full flex flex-col items-start justify-start gap-5 h-[570px] overflow-hidden rounded-[20px] bg-navhover pt-8 px-4 relative"
