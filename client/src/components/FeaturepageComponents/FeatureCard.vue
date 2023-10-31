@@ -45,8 +45,9 @@
             <p
               class="text-sm font-medium text-dark/50 md:text-base text-center tab:max-w-[220px]"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              {{ cardItem.desc }}
             </p>
+            <img :src="cardItem.cardImage" :alt="cardItem.desc" />
           </div>
         </div>
       </div>
