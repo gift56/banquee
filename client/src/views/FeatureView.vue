@@ -5,11 +5,13 @@
       <FeatureTransaction :data="data" />
     </section>
     <FeatureBank />
+    <FeatureCard />
   </main>
 </template>
 
 <script setup>
 import FeatureBank from "../components/FeaturepageComponents/FeatureBank.vue";
+import FeatureCard from "../components/FeaturepageComponents/FeatureCard.vue";
 import FeatureHero from "../components/FeaturepageComponents/FeatureHero.vue";
 import FeatureTransaction from "../components/FeaturepageComponents/FeatureTransaction.vue";
 import { PropData } from "../utils/propdata";
