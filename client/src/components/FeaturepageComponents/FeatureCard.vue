@@ -48,7 +48,7 @@
               {{ cardItem.desc }}
             </p>
             <img :src="cardItem.cardImage" :alt="cardItem.desc" />
-            <button class="btn">Get started</button>
+            <button type="button" class="btn font-dm bg-primary text-white !w-full cursor-pointer">Get started</button>
           </div>
         </div>
       </div>
