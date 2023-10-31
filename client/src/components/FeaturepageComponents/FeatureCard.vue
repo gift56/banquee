@@ -30,7 +30,14 @@
                 >Popular</span
               >
             </div>
-            <h3 class="text-2xl text-dark text-center sm:text-3xl tab:text-4xl font-bold">{{ cardItem.price }}</h3>
+            <div class="flex items-end justify-center gap-2">
+              <h3
+                class="text-2xl text-dark text-center sm:text-3xl tab:text-4xl font-bold"
+              >
+                {{ cardItem.price }}
+              </h3>
+              <span class="text-sm font-medium text-dark/50 md:text-base" v-if="cardItem.price !== 'Free'">per month</span>
+            </div>
           </div>
         </div>
       </div>
