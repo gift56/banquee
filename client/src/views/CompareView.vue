@@ -94,7 +94,13 @@
                 class="border-b border-bordergray w-full py-4"
               >
                 <div class="flex items-center justify-start gap-2">
-                  <span class="w-12 h-12 bg-featureBg flex items-center justify-center rounded-full text-primary"><i :class="item.firstContent.icon"></i></span>
+                  <span
+                    class="w-12 h-12 bg-featureBg flex items-center justify-center rounded-full text-primary"
+                    ><i :class="item.firstContent.icon"></i
+                  ></span>
+                  <div class="flex flex-col items-start justify-start gap-3">
+                    <h3 class="text-base font-medium text-dark md:text-lg font-dm">{{ item.firstContent.heading }}</h3>
+                  </div>
                 </div>
               </li>
             </ul>
