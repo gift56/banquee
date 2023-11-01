@@ -25,7 +25,7 @@
           <div
             v-for="blog in blogData"
             :key="blog.blogHeadline"
-            class="w-full flex flex-col items-start justify-start gap-4"
+            class="w-full flex flex-col items-start justify-start gap-4 cursor-pointer"
           >
             <img
               :src="blog.blogImage"
