@@ -560,21 +560,21 @@ export const supportData = [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
       },
       {
-        id: "01",
+        id: "03",
         open: false,
         question: "How to order an extra card?",
         answer:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
       },
       {
-        id: "01",
+        id: "04",
         open: false,
         question: "My card will exprise soon. What to do?",
         answer:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
       },
       {
-        id: "01",
+        id: "05",
         open: false,
         question: "How do I freeze my card?",
         answer:
