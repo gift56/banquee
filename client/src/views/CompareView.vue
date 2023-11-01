@@ -3,7 +3,7 @@
     <section class="w-full bg-featureBg">
       <div class="container">
         <div
-          class="w-full flex flex-col tab:flex-row items-center justify-between gap-6 pt-10"
+          class="w-full flex flex-col tab:flex-row items-center justify-between gap-6 pt-16"
         >
           <div
             class="w-full tab:flex-1 flex flex-col items-start justify-start gap-6"
