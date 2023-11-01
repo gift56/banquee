@@ -437,7 +437,7 @@ export const compareData = [
     ],
   },
   {
-    title: "Credit Card",
+    title: "Bank Account",
     data: [
       {
         firstContent: {
