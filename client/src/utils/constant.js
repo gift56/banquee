@@ -455,9 +455,9 @@ export const compareData = [
           heading: "Free ATM withdrawls",
           desc: "Diam in arcu cursus euismod",
         },
-        isOptional: "-",
-        checkIcon: "Up to 2",
-        checkIcon2: "Unlimited",
+        isOptional: "2",
+        checkIcon: "5",
+        checkIcon2: "10",
       },
       {
         firstContent: {
