@@ -91,7 +91,7 @@
               <li
                 v-for="(item, index) in itemInfo.data"
                 :key="index"
-                class="border-b border-bordergray w-full py-4 grid grid-cols-2 tab:flex items-center tab:justify-between gap-5 select-none"
+                class="border-b border-bordergray last:border-none w-full py-4 grid grid-cols-2 tab:flex items-center tab:justify-between gap-5 select-none"
               >
                 <div
                   class="flex flex-col tab:flex-row tab:items-center justify-start gap-2 w-full"
@@ -157,9 +157,16 @@
         </div>
       </div>
     </section>
-    <section class="w-full">
+    <section class="w-full mt-5">
       <div class="container">
-        <div class="w-full grid grid-cols-4"></div>
+        <div class="w-full grid grid-cols-4 items-start justify-start gap-6 bg-primary text-primary py-10 px-5 rounded-lg">
+          <div class="flex flex-col items-start justify-start">
+
+          </div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
     </section>
   </main>
