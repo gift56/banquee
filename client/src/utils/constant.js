@@ -487,17 +487,17 @@ export const compareData = [
       {
         firstContent: {
           icon: "fa-solid fa-chart-line",
-          heading: "Free ATM withdrawls",
+          heading: "Advanced Statistics",
           desc: "Diam in arcu cursus euismod",
         },
-        isOptional: "2",
-        checkIcon: "5",
-        checkIcon2: "10",
+        isOptional: "check",
+        checkIcon: "check",
+        checkIcon2: "check",
       },
       {
         firstContent: {
-          icon: "fa-solid fa-mobile",
-          heading: "Mobile Banking",
+          icon: "fa-regular fa-gem",
+          heading: "Premium Partner Offers",
           desc: "Diam in arcu cursus euismod",
         },
         isOptional: "check",
