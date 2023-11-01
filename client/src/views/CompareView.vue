@@ -87,11 +87,11 @@
                 {{ itemInfo.title }}
               </h3>
             </div>
-            <ul class="w-full flex flex-col items-start justify-between">
+            <ul class="w-full flex flex-col items-start">
               <li
                 v-for="(item, index) in itemInfo.data"
                 :key="index"
-                class="border-b border-bordergray w-full py-4"
+                class="border-b border-bordergray w-full py-4 flex items-center justify-between gap-5"
               >
                 <div class="flex items-center justify-start gap-2">
                   <span
@@ -103,6 +103,8 @@
                     <p class="text-sm font-medium text-dark/50">{{ item.firstContent.desc }}</p>
                   </div>
                 </div>
+                div
+
               </li>
             </ul>
           </div>
