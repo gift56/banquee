@@ -92,15 +92,19 @@
               </nav>
             </div>
           </div>
-          <div class="w-full tab:flex-[2]">
+          <div class="w-full tab:flex-[2] flex flex-col items-start justify-start gap-10">
             <div
               v-for="supportItem in supportData"
               :key="supportItem.id"
               :id="supportItem.id"
-              class="w-full flex flex-col items-start justify-start gap-5"
+              class="w-full tab:w-[80%] ml-auto flex flex-col items-start justify-start gap-5"
             >
               <div class="flex items-center justify-start gap-5">
-
+                <span
+                  class="w-12 h-12 rounded-full flex items-center justify-center bg-featureBg text-primary"
+                >
+                  <i :class="supportItem.headingContent.icon"></i>
+                </span>
               </div>
             </div>
           </div>
