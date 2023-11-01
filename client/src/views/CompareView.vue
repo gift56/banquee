@@ -111,7 +111,15 @@
                 </div>
 
                 <div class="flex items-center justify-center">
-                  <span class="text-sm font-medium text-dark md:text-base">{{ item.isOptional }}</span>
+                  <span class="text-sm font-medium text-dark md:text-base" v-if="item.isOptional !== 'check'">{{
+                    item.isOptional
+                  }}</span>
+                  <img
+                    src="../assets/icons/badgeIcon.svg"
+                    alt="check"
+                    class="w-6 h-6 object-contain"
+                    v-if="item.isOptional === 'check'"
+                  />
                 </div>
               </li>
             </ul>
