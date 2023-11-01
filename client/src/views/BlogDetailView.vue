@@ -10,7 +10,6 @@
   </main>
 </template>
 
-<script>
+<script setup>
 import { blogData } from "../utils/constant";
-
 </script>
