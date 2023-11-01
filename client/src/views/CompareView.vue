@@ -91,7 +91,7 @@
               <li
                 v-for="(item, index) in itemInfo.data"
                 :key="index"
-                class="border-b border-bordergray w-full py-4 flex items-center justify-between gap-5"
+                class="border-b border-bordergray w-full py-4 flex items-center justify-between gap-5 select-none"
               >
                 <div class="flex items-center justify-start gap-2">
                   <span
