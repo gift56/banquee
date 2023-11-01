@@ -73,20 +73,20 @@
               <h4 class="text-base font-medium text-dark md:text-lg font-dm">
                 Categories
               </h4>
-              <nav class="flex flex-col items-start justify-start w-full">
+              <nav class="flex flex-col items-start justify-start gap-6 w-full">
                 <RouterLink
                   to="#"
-                  class="w-full text-base font-medium text-dark/50"
+                  class="w-full text-base font-medium text-dark/50 hover:underline"
                   >Cards</RouterLink
                 >
                 <RouterLink
                   to="#"
-                  class="w-full text-base font-medium text-dark/50"
+                  class="w-full text-base font-medium text-dark/50 hover:underline"
                   >Account</RouterLink
                 >
                 <RouterLink
                   to="#"
-                  class="w-full text-base font-medium text-dark/50"
+                  class="w-full text-base font-medium text-dark/50 hover:underline"
                   >Personal Details</RouterLink
                 >
               </nav>
