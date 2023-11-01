@@ -436,4 +436,49 @@ export const compareData = [
       },
     ],
   },
+  {
+    title: "Credit Card",
+    data: [
+      {
+        firstContent: {
+          icon: "fa-solid fa-credit-card",
+          heading: "Physical Card",
+          desc: "Diam in arcu cursus euismod",
+        },
+        isOptional: "Optional",
+        checkIcon: "check",
+        checkIcon2: "check",
+      },
+      {
+        firstContent: {
+          icon: "fa-solid fa-credit-card",
+          heading: "Visual Card",
+          desc: "Diam in arcu cursus euismod",
+        },
+        isOptional: "-",
+        checkIcon: "Up to 2",
+        checkIcon2: "Unlimited",
+      },
+      {
+        firstContent: {
+          icon: "fa-solid fa-wifi",
+          heading: "Contactless Payments",
+          desc: "Diam in arcu cursus euismod",
+        },
+        isOptional: "check",
+        checkIcon: "check",
+        checkIcon2: "check",
+      },
+      {
+        firstContent: {
+          icon: "fa-regular fa-circle-euro",
+          heading: "Mobile Payments",
+          desc: "Diam in arcu cursus euismod",
+        },
+        isOptional: "check",
+        checkIcon: "check",
+        checkIcon2: "check",
+      },
+    ],
+  },
 ];
