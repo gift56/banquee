@@ -92,18 +92,25 @@
               </nav>
             </div>
           </div>
-          <div class="w-full tab:flex-[2]"></div>
+          <div class="w-full tab:flex-[2]">
+            <div
+              v-for="supportItem in supportData"
+              :key="supportItem.id"
+              :id="supportItem.id"
+              class="w-full flex flex-col items-start justify-start gap-5"
+            >
+              <div class="flex items-center justify-start gap-6">
+                
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
   </main>
 </template>
 
-<script>
+<script setup>
 import { RouterLink } from "vue-router";
-
-export default {
-  name: "SupportView",
-  components: { RouterLink },
-};
+import { supportData } from "../utils/constant";
 </script>
