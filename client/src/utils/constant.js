@@ -477,12 +477,12 @@ export const compareData = [
       {
         firstContent: {
           icon: "fa-solid fa-building-shield",
-          heading: "Free Payments Worldwide",
+          heading: "Saving Accounts",
           desc: "Diam in arcu cursus euismod",
         },
-        isOptional: "-",
-        checkIcon: "check",
-        checkIcon2: "check",
+        isOptional: "2",
+        checkIcon: "5",
+        checkIcon2: "Unlimited",
       },
       {
         firstContent: {
