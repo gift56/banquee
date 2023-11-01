@@ -427,7 +427,7 @@ export const compareData = [
       {
         firstContent: {
           icon: "fa-regular fa-circle-euro",
-          heading: "Contactless Payments",
+          heading: "Mobile Payments",
           desc: "Diam in arcu cursus euismod",
         },
         isOptional: "check",
