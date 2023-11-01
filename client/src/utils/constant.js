@@ -272,6 +272,7 @@ export const blogData = [
     cat: ["Product", "Technology"],
   },
   {
+    blogid: "0001210101010",
     blogImage: blogImage2,
     blogHeadline: "10 Things Nobody Told You About Banko",
     detail:
@@ -279,6 +280,7 @@ export const blogData = [
     cat: ["Product", "Technology"],
   },
   {
+    blogid: "0001310101010",
     blogImage: blogImage3,
     blogHeadline: "7 Ways To Improve You Saving Habits",
     detail:
@@ -286,6 +288,7 @@ export const blogData = [
     cat: ["Product", "Technology"],
   },
   {
+    blogid: "0001410101010",
     blogImage: blogImage4,
     blogHeadline: "Why We Love Banko (And You Should, Too!)",
     detail:
@@ -293,6 +296,7 @@ export const blogData = [
     cat: ["Product", "Technology"],
   },
   {
+    blogid: "0001510101010",
     blogImage: blogImage5,
     blogHeadline: "5 Principles Of Crypto Investing",
     detail:
@@ -300,6 +304,7 @@ export const blogData = [
     cat: ["Product", "Technology"],
   },
   {
+    blogid: "0001610101010",
     blogImage: blogImage6,
     blogHeadline: "7 Things About Banko Your Friends Want To Know",
     detail:
