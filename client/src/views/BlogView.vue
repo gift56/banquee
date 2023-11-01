@@ -21,7 +21,7 @@
             </div>
           </div>
         </div>
-        <div class="w-full grid sm:grid-cols-2 tab:grid-cols-3 gap-4">
+        <div class="w-full grid sm:grid-cols-2 tab:grid-cols-3 gap-x-4 gap-y-10">
           <div
             v-for="blog in blogData"
             :key="blog.blogHeadline"

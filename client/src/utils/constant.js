@@ -264,6 +264,7 @@ export const faqData = [
 
 export const blogData = [
   {
+    blogid: "0001010101010",
     blogImage: blogImage1,
     blogHeadline: "How To Start Using Banko For Your Startup",
     detail:
