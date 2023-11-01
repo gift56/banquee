@@ -22,6 +22,48 @@
         </div>
       </div>
     </section>
+    <section class="w-full mt-5 select-none py-14">
+      <div class="container">
+        <div
+          class="w-full grid md:grid-cols-2 xl:grid-cols-4 items-start justify-start gap-9 bg-primary text-white py-10 px-5 rounded-lg"
+        >
+          <div class="flex flex-col items-start justify-start">
+            <h3 class="text-lg font-medium md:text-2xl truncate">
+              Still have questions?
+            </h3>
+            <p class="text-base font-medium opacity-70">We are here to help.</p>
+          </div>
+          <div class="flex items-center xl:justify-end gap-2">
+            <span
+              class="bg-white/20 w-10 h-10 rounded-full flex items-center justify-center"
+              ><i class="fa-solid fa-phone"></i
+            ></span>
+            <div class="flex flex-col items-start justify-start">
+              <h4 class="text-base font-medium md:text-lg font-dm">
+                +49 176 123 456
+              </h4>
+              <p class="text-sm font-medium opacity-70">Support Hotline</p>
+            </div>
+          </div>
+          <div class="flex items-center xl:justify-end gap-2">
+            <span
+              class="bg-white/20 w-10 h-10 rounded-full flex items-center justify-center"
+              ><i class="fa-regular fa-envelope"></i
+            ></span>
+            <div class="flex flex-col items-start justify-start">
+              <h4 class="text-base font-medium md:text-lg font-dm">
+                help@bank.com
+              </h4>
+              <p class="text-sm font-medium opacity-70">Support Email</p>
+            </div>
+          </div>
+          <div class="flex items-end justify-end">
+            <button class="btn text-white bg-dark font-dm">Chat with us</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 </template>
 
