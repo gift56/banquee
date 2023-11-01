@@ -82,7 +82,7 @@
             :key="index"
             class="w-full flex flex-col items-start justify-start gap-3"
           >
-            <h3></h3>
+            <h3 class="">{{ itemInfo.title }}</h3>
           </div>
         </div>
       </div>
