@@ -98,7 +98,7 @@
                     class="w-12 h-12 bg-featureBg flex items-center justify-center rounded-full text-primary"
                     ><i :class="item.firstContent.icon"></i
                   ></span>
-                  <div class="flex flex-col items-start justify-start gap-3">
+                  <div class="flex flex-col items-start justify-start">
                     <h3 class="text-base font-medium text-dark md:text-lg font-dm">{{ item.firstContent.heading }}</h3>
                     <p class="text-sm font-medium text-dark/50">{{ item.firstContent.desc }}</p>
                   </div>
