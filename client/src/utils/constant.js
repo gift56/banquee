@@ -404,6 +404,16 @@ export const compareData = [
         checkIcon: "check",
         checkIcon2: "check",
       },
+      {
+        firstContent: {
+          icon: "fa-solid fa-credit-card",
+          heading: "Visual Card",
+          desc: "Diam in arcu cursus euismod",
+        },
+        isOptional: "-",
+        checkIcon: "Up to 2",
+        checkIcon2: "undefined",
+      },
     ],
   },
 ];
