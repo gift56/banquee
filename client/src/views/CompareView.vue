@@ -76,7 +76,7 @@
     </section>
     <section class="w-full">
       <div class="container">
-        <div class="w-full flex flex-col items-start justify-start gap-8">
+        <div class="w-full flex flex-col items-start justify-start gap-10">
           <div
             v-for="(itemInfo, index) in compareData"
             :key="index"
@@ -99,12 +99,20 @@
                     ><i :class="item.firstContent.icon"></i
                   ></span>
                   <div class="flex flex-col items-start justify-start">
-                    <h3 class="text-base font-medium text-dark md:text-lg font-dm">{{ item.firstContent.heading }}</h3>
-                    <p class="text-sm font-medium text-dark/50">{{ item.firstContent.desc }}</p>
+                    <h3
+                      class="text-base font-medium text-dark md:text-lg font-dm"
+                    >
+                      {{ item.firstContent.heading }}
+                    </h3>
+                    <p class="text-sm font-medium text-dark/50">
+                      {{ item.firstContent.desc }}
+                    </p>
                   </div>
                 </div>
-                div
 
+                <div class="flex items-center justify-center">
+                  <span></span>
+                </div>
               </li>
             </ul>
           </div>
