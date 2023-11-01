@@ -163,10 +163,21 @@
           class="w-full grid grid-cols-4 items-start justify-start gap-6 bg-primary text-white py-10 px-5 rounded-lg"
         >
           <div class="flex flex-col items-start justify-start">
-            <h3 class="text-lg font-medium md:text-2xl">Still have questions?</h3>
+            <h3 class="text-lg font-medium md:text-2xl">
+              Still have questions?
+            </h3>
             <p class="text-base font-medium opacity-70">We are here to help.</p>
           </div>
-          <div></div>
+          <div class="flex items-center gap-2">
+            <span
+              class="bg-white/20 w-10 h-10 rounded-full flex items-center justify-center"
+              ><i class="fa-solid fa-phone"></i
+            ></span>
+            <div class="flex flex-col items-start justify-start">
+              <h4 class="text-base font-medium md:text-lg font-dm">+49 176 123 456</h4>
+              <p class="text-sm font-medium opacity-70">Support Hotline</p>
+            </div>
+          </div>
           <div></div>
           <div></div>
         </div>
