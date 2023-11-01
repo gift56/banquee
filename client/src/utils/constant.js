@@ -471,4 +471,39 @@ export const compareData = [
       },
     ],
   },
+  {
+    title: "Extra Features",
+    data: [
+      {
+        firstContent: {
+          icon: "fa-solid fa-building-shield",
+          heading: "Free Payments Worldwide",
+          desc: "Diam in arcu cursus euismod",
+        },
+        isOptional: "-",
+        checkIcon: "check",
+        checkIcon2: "check",
+      },
+      {
+        firstContent: {
+          icon: "fa-solid fa-building-columns",
+          heading: "Free ATM withdrawls",
+          desc: "Diam in arcu cursus euismod",
+        },
+        isOptional: "2",
+        checkIcon: "5",
+        checkIcon2: "10",
+      },
+      {
+        firstContent: {
+          icon: "fa-solid fa-mobile",
+          heading: "Mobile Banking",
+          desc: "Diam in arcu cursus euismod",
+        },
+        isOptional: "check",
+        checkIcon: "check",
+        checkIcon2: "check",
+      },
+    ],
+  },
 ];
