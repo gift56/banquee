@@ -24,7 +24,9 @@
     </section>
     <section class="w-full">
       <div class="container">
-        <div class="w-full flex items-start justify-center tab:justify-end py-16">
+        <div
+          class="w-full flex items-start justify-center tab:justify-end py-16"
+        >
           <div
             class="w-[80%] grid grid-cols-1 md:grid-cols-3 gap-8 items-start justify-start"
           >
@@ -72,9 +74,16 @@
         </div>
       </div>
     </section>
+    <section class="w-full">
+      <div class="container">
+        <div class="w-full flex flex-col items-start justify-start gap-8">
+          
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 
 <script setup>
-import { featurePricingData } from '../utils/constant';
+import { featurePricingData } from "../utils/constant";
 </script>
