@@ -93,7 +93,9 @@
                 :key="index"
                 class="border-b border-bordergray w-full py-4 grid grid-cols-2 tab:flex items-center tab:justify-between gap-5 select-none"
               >
-                <div class="flex flex-col tab:flex-row tab:items-center justify-start gap-2 w-full">
+                <div
+                  class="flex flex-col tab:flex-row tab:items-center justify-start gap-2 w-full"
+                >
                   <span
                     class="w-12 h-12 bg-featureBg flex items-center justify-center rounded-full text-primary"
                     ><i :class="item.firstContent.icon"></i
@@ -153,6 +155,11 @@
             </ul>
           </div>
         </div>
+      </div>
+    </section>
+    <section class="w-full">
+      <div class="container">
+        <div class="w-full grid grid-cols-4"></div>
       </div>
     </section>
   </main>
