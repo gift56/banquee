@@ -13,7 +13,9 @@
             </h6>
             <h2 class="headingtext">The ideal <br class="hidden lg:block"> card for you</h2>
           </div>
-          <div class="w-full tab:flex-1"></div>
+          <div class="w-full tab:flex-1">
+            <img src="../assets/images/ideaHero.svg" alt="">
+          </div>
         </div>
       </div>
     </section>
