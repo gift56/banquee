@@ -29,7 +29,7 @@
               Open Account
             </button>
           </RouterLink>
-          <RouterLink to="/" class="group">
+          <RouterLink to="/compare" class="group">
             <div class="text-primary flex items-center gap-2">
               Compare Cards
               <img
@@ -73,5 +73,4 @@
 </template>
 
 <script setup>
-import { RouterLink } from "vue-router";
 </script>
