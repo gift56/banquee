@@ -67,8 +67,29 @@
       <div class="container">
         <div class="sectionCon !items-start">
           <div class="w-full tab:flex-[0.6]">
-            <div class="w-full flex flex-col items-start justify-start gap-6 p-3 bg-navhover rounded-lg">
-              <h4 class="text-base font-medium text-dark md:text-lg font-dm">Categories</h4>
+            <div
+              class="w-full flex flex-col items-start justify-start gap-6 p-6 bg-navhover rounded-lg"
+            >
+              <h4 class="text-base font-medium text-dark md:text-lg font-dm">
+                Categories
+              </h4>
+              <nav class="flex flex-col items-start justify-start w-full">
+                <RouterLink
+                  to="#"
+                  class="w-full text-base font-medium text-dark/50"
+                  >Cards</RouterLink
+                >
+                <RouterLink
+                  to="#"
+                  class="w-full text-base font-medium text-dark/50"
+                  >Account</RouterLink
+                >
+                <RouterLink
+                  to="#"
+                  class="w-full text-base font-medium text-dark/50"
+                  >Personal Details</RouterLink
+                >
+              </nav>
             </div>
           </div>
           <div class="w-full tab:flex-[2]"></div>
@@ -79,7 +100,10 @@
 </template>
 
 <script>
+import { RouterLink } from "vue-router";
+
 export default {
   name: "SupportView",
+  components: { RouterLink },
 };
 </script>
