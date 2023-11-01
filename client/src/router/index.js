@@ -4,6 +4,7 @@ import FeatureView from "../views/FeatureView.vue";
 import BlogView from "../views/BlogView.vue";
 import SupportView from "../views/SupportView.vue";
 import CompareView from "../views/CompareView.vue";
+import BlogDetailView from "../views/BlogDetailView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -36,7 +37,7 @@ const router = createRouter({
     {
       path: "/blog/:blogId",
       name: "blog_detial",
-      component: BlogView,
+      component: BlogDetailView,
     },
   ],
   scrollBehavior(to, from, savedPosition) {

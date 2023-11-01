@@ -27,7 +27,7 @@
           <RouterLink
             v-for="blog in blogData"
             :key="blog.blogHeadline"
-            :to="blog.blogid"
+            :to="'/blog/' + blog.blogid"
             class="w-full flex flex-col items-start justify-start gap-4 cursor-pointer"
           >
             <img
@@ -61,7 +61,6 @@
 </template>
 
 <script setup>
-import { RouterLink } from "vue-router";
 import { blogData } from "../utils/constant";
 
 const cat = ["All", "Product", "Technology", "App"];
