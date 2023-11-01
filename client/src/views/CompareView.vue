@@ -22,7 +22,13 @@
         </div>
       </div>
     </section>
-    <section></section>
+    <section class="w-full">
+      <div class="container">
+        <div class="w-full flex items-start justify-end">
+          
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 
