@@ -51,7 +51,7 @@
                 <div
                   v-for="icon in socialIcons"
                   :key="icon.icon"
-                  class="w-12 h-12 rounded-full bg-navhover flex items-center justify-center cursor-pointer hover:bg-primary hover:text-white"
+                  class="w-12 h-12 rounded-full bg-navhover flex items-center justify-center cursor-pointer hover:bg-primary hover:text-white transition-all duration-300"
                 >
                   <i :class="icon.icon" class="text-xl"></i>
                 </div>
