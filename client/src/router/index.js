@@ -39,6 +39,21 @@ const router = createRouter({
       component: BlogView,
     },
   ],
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      // If the user has previously scrolled on this page, return to the previous position
+      return savedPosition;
+    } else if (to.hash) {
+      // If the destination route has a hash (e.g., "#pricing"), scroll to the element with the corresponding ID
+      return {
+        el: to.hash,
+        behavior: "smooth", // Optional, adds smooth scrolling effect
+      };
+    } else {
+      // Scroll to the top of the page
+      return { top: 0 };
+    }
+  },
 });
 
 export default router;
