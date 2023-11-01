@@ -441,8 +441,8 @@ export const compareData = [
     data: [
       {
         firstContent: {
-          icon: "fa-solid fa-credit-card",
-          heading: "Physical Card",
+          icon: "fa-solid fa-globe",
+          heading: "Free Payments Worldwide",
           desc: "Diam in arcu cursus euismod",
         },
         isOptional: "Optional",
