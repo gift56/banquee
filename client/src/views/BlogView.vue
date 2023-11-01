@@ -21,11 +21,44 @@
             </div>
           </div>
         </div>
+        <div class="w-full grid sm:grid-cols-2 tab:grid-cols-3 gap-4">
+          <div
+            v-for="blog in blogData"
+            :key="blog.blogHeadline"
+            class="w-full flex flex-col items-start justify-start gap-4"
+          >
+            <img
+              :src="blog.blogImage"
+              :alt="blog.blogHeadline"
+              class="w-full aspect-square rounded-2xl"
+            />
+            <div class="flex flex-col items-start justify-start gap-3 w-full">
+              <h3 class="text-lg font-medium font-dm text-dark md:text-2xl">
+                {{ blog.blogHeadline }}
+              </h3>
+              <p class="text-sm font-medium text-dark md:text-base">
+                {{ blog.detail }}
+              </p>
+              <div
+                class="w-full flex flex-wrap gap-5 items-start justify-start"
+              >
+                <span
+                  class="w-fit py-1 px-2 rounded text-sm font-medium text-dark select-none bg-bordergray"
+                  v-for="item in blog.cat"
+                  :key="item"
+                  >{{ item }}</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </main>
 </template>
 
 <script setup>
+import { blogData } from '../utils/constant';
+
 const cat = ["All", "Product", "Technology", "App"];
 </script>
