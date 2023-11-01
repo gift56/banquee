@@ -412,7 +412,7 @@ export const compareData = [
         },
         isOptional: "-",
         checkIcon: "Up to 2",
-        checkIcon2: "undefined",
+        checkIcon2: "Unlimited",
       },
     ],
   },
