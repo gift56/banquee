@@ -1,5 +1,7 @@
 <template>
-  <div>BlogDetail</div>
+  <main class="w-full">
+
+  </main>
 </template>
 
 <script>
