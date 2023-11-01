@@ -281,6 +281,27 @@ export const blogData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.",
     cat: ["Product", "Technology"],
   },
+  {
+    blogImage: blogImage1,
+    blogHeadline: "Why We Love Banko (And You Should, Too!)",
+    detail:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.",
+    cat: ["Product", "Technology"],
+  },
+  {
+    blogImage: blogImage2,
+    blogHeadline: "5 Principles Of Crypto Investing",
+    detail:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.",
+    cat: ["Product", "Technology"],
+  },
+  {
+    blogImage: blogImage3,
+    blogHeadline: "7 Things About Banko Your Friends Want To Know",
+    detail:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.",
+    cat: ["Product", "Technology"],
+  },
 ];
 
 export const footerLinks = [
