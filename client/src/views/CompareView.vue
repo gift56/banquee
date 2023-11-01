@@ -111,7 +111,7 @@
                 </div>
 
                 <div class="flex items-center justify-center">
-                  <span></span>
+                  <span class="text-sm font-medium text-dark md:text-base">{{ item.isOptional }}</span>
                 </div>
               </li>
             </ul>
