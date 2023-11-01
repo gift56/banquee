@@ -538,4 +538,12 @@ export const compareData = [
   },
 ];
 
-export const supportData = [{}];
+export const supportData = [
+  {
+    headingContent: {
+      icon: "fa-solid fa-building-lock",
+      title: "Cards",
+    },
+    
+  },
+];
