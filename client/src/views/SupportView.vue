@@ -63,7 +63,14 @@
         </div>
       </div>
     </section>
-
+    <section class="w-full">
+      <div class="container">
+        <div class="sectionCon !items-start">
+          <div class="w-full tab:flex-[0.6]"></div>
+          <div class="w-full tab:flex-[2]"></div>
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 
