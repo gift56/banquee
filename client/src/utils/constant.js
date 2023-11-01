@@ -537,3 +537,5 @@ export const compareData = [
     ],
   },
 ];
+
+export const supportData = [{}];
