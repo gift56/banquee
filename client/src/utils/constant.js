@@ -461,8 +461,8 @@ export const compareData = [
       },
       {
         firstContent: {
-          icon: "fa-solid fa-wifi",
-          heading: "Contactless Payments",
+          icon: "fa-solid fa-mobile",
+          heading: "Mobile Banking",
           desc: "Diam in arcu cursus euismod",
         },
         isOptional: "check",
