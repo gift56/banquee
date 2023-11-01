@@ -389,3 +389,19 @@ export const featurePricingData = [
     cardImage: cardImage1,
   },
 ];
+
+export const compareData = [
+  {
+    title: "Credit Card",
+    data: [
+      {
+        firstContent: {
+          icon: "fa-solid fa-credit-card",
+          heading: "Physical Card",
+          desc: "Diam in arcu cursus euismod",
+        },
+        isOptional: "Optional",
+      },
+    ],
+  },
+];
