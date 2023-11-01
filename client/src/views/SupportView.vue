@@ -107,7 +107,7 @@
                 >
                   <i :class="supportItem.headingContent.icon"></i>
                 </span>
-                <h3 class="">{{ supportItem.headingContent.title }}</h3>
+                <h3 class="text-xl font-medium text-dark md:text-2xl font-dm">{{ supportItem.headingContent.title }}</h3>
               </div>
             </div>
           </div>
