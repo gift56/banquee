@@ -34,14 +34,22 @@
             class="absolute top-[0%]"
           />
         </div>
-        <div class="flex flex-col mt-4 md:flex-row items-center justify-center w-full gap-5">
+        <div
+          class="flex flex-col mt-4 md:flex-row items-center justify-center w-full gap-5"
+        >
           <RouterLink to="/" class="w-full md:w-fit">
-            <button type="button" class="btn bg-primary text-white !w-full md:!w-fit !px-8">
+            <button
+              type="button"
+              class="btn bg-primary text-white !w-full md:!w-fit !px-8"
+            >
               Open Account
             </button>
           </RouterLink>
-          <RouterLink to="/" class="w-full md:w-fit">
-            <button type="button" class="btn bg-white text-dark border border-bordergray !w-full md:!w-fit !px-8">
+          <RouterLink to="/compare" class="w-full md:w-fit">
+            <button
+              type="button"
+              class="btn bg-white text-dark border border-bordergray !w-full md:!w-fit !px-8"
+            >
               Compare Cards
             </button>
           </RouterLink>
@@ -51,6 +59,4 @@
   </section>
 </template>
 
-<script setup>
-import { RouterLink } from "vue-router";
-</script>
+<script setup></script>

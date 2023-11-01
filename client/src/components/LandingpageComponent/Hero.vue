@@ -11,7 +11,9 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore.
           </p>
-          <div class="w-full grid sm:grid-cols-2 gap-4 items-start justify-start">
+          <div
+            class="w-full grid sm:grid-cols-2 gap-4 items-start justify-start"
+          >
             <div
               v-for="feature in heroFeatures"
               :key="feature"
@@ -35,7 +37,7 @@
                 Open Account
               </button>
             </RouterLink>
-            <RouterLink to="/" class="group">
+            <RouterLink to="/compare" class="group">
               <div class="text-primary flex items-center gap-2">
                 Compare Cards
                 <img
@@ -66,5 +68,4 @@
 
 <script setup>
 import { heroFeatures } from "../../utils/constant";
-import { RouterLink } from "vue-router";
 </script>
