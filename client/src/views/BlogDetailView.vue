@@ -120,6 +120,7 @@ import { blogData } from "../utils/constant";
 export default {
   data() {
     return {
+      blogData,
       blogDetail: blogData.find(
         (item) => item.blogid === this.$route.params.blogId
       ),
