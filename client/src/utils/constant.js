@@ -445,14 +445,14 @@ export const compareData = [
           heading: "Free Payments Worldwide",
           desc: "Diam in arcu cursus euismod",
         },
-        isOptional: "Optional",
+        isOptional: "-",
         checkIcon: "check",
         checkIcon2: "check",
       },
       {
         firstContent: {
-          icon: "fa-solid fa-credit-card",
-          heading: "Visual Card",
+          icon: "fa-solid fa-building-columns",
+          heading: "Free ATM withdrawls",
           desc: "Diam in arcu cursus euismod",
         },
         isOptional: "-",
