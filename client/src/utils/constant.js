@@ -414,6 +414,16 @@ export const compareData = [
         checkIcon: "Up to 2",
         checkIcon2: "Unlimited",
       },
+      {
+        firstContent: {
+          icon: "fa-solid fa-wifi",
+          heading: "Visual Card",
+          desc: "Diam in arcu cursus euismod",
+        },
+        isOptional: "-",
+        checkIcon: "Up to 2",
+        checkIcon2: "Unlimited",
+      },
     ],
   },
 ];
