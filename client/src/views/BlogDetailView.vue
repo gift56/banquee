@@ -44,7 +44,14 @@
           </div>
           <div class="w-full flex items-center justify-center">
             <div class="flex flex-col gap-2">
-                <h5 class="text-base md:text-lg font-medium text-dark font-dm">Share article</h5>
+              <h5 class="text-base md:text-lg font-medium text-dark font-dm">
+                Share article
+              </h5>
+              <div class="flex items-center justify-center gap-5">
+                <div v-for="icon in socialIcons" :key="item.icon">
+                
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -62,6 +69,20 @@ export default {
       blogDetail: blogData.find(
         (item) => item.blogid === this.$route.params.blogId
       ),
+      socialIcons: [
+        {
+          icon: "fa-brands fa-twitter",
+        },
+        {
+          icon: "fa-brands fa-linkedin",
+        },
+        {
+          icon: "fa-brands fa-facebook",
+        },
+        {
+          icon: "fa-brands fa-instagram",
+        },
+      ],
     };
   },
 };
