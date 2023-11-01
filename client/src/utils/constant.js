@@ -598,28 +598,21 @@ export const supportData = [
       {
         id: "02",
         open: false,
-        question: "How do I create a virtual card?",
+        question: "How to upgrade my account?",
         answer:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
       },
       {
         id: "03",
         open: false,
-        question: "How to order an extra card?",
+        question: "Can I have multiple accounts?",
         answer:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
       },
       {
         id: "04",
         open: false,
-        question: "My card will exprise soon. What to do?",
-        answer:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
-      },
-      {
-        id: "05",
-        open: false,
-        question: "How do I freeze my card?",
+        question: "How do I cancel my account?",
         answer:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
       },
