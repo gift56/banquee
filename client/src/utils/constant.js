@@ -591,28 +591,28 @@ export const supportData = [
     },
     faqData: [
       {
-        id: "01",
+        id: "06",
         open: false,
         question: "How do I verify my account?",
         answer:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
       },
       {
-        id: "02",
+        id: "07",
         open: false,
         question: "How to upgrade my account?",
         answer:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
       },
       {
-        id: "03",
+        id: "08",
         open: false,
         question: "Can I have multiple accounts?",
         answer:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
       },
       {
-        id: "04",
+        id: "09",
         open: false,
         question: "How do I cancel my account?",
         answer:
@@ -628,28 +628,28 @@ export const supportData = [
     },
     faqData: [
       {
-        id: "01",
+        id: "010",
         open: false,
         question: "How do I change my account address?",
         answer:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
       },
       {
-        id: "02",
+        id: "012",
         open: false,
         question: "How to close my account?",
         answer:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
       },
       {
-        id: "03",
+        id: "032",
         open: false,
         question: "Where do I find my tax ID?",
         answer:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
       },
       {
-        id: "04",
+        id: "042",
         open: false,
         question: "How can I download my bank documents?",
         answer:

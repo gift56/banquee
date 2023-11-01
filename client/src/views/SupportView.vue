@@ -112,12 +112,12 @@
                 </h3>
               </div>
               <div
-                v-for="(faq, index) in supportItem.faqData"
+                v-for="faq in supportItem.faqData"
                 :key="faq.id"
                 class="w-full flex flex-col items-start justify-start py-4 border-b border-bordergray transition-all duration-300"
               >
                 <div
-                  @click="toggleFaq(index)"
+                  @click="toggleFaq(faq.id)"
                   class="w-full flex items-center justify-between gap-3 cursor-pointer select-none"
                 >
                   <h2
@@ -129,7 +129,8 @@
                     src="@/assets/icons/plusIcon.svg"
                     alt="plusIcon"
                     :class="{
-                      'rotate-45 transition-all duration-300': faq.open,
+                      'rotate-45 transition-all duration-300':
+                        openedFaq === faq.id,
                     }"
                     class="transition-all duration-300"
                   />
@@ -137,7 +138,8 @@
                 <div
                   class="max-h-0 overflow-hidden transition-all duration-300"
                   :class="{
-                    'max-h-[1000px] transition-all duration-300': faq.open,
+                    'max-h-[1000px] transition-all duration-300':
+                      openedFaq === faq.id,
                   }"
                 >
                   <p class="mt-4 text-sm md:text-base text-dark/50">
@@ -156,14 +158,15 @@
 <script setup>
 import { RouterLink } from "vue-router";
 import { supportData } from "../utils/constant";
+import { ref } from "vue";
 
-const toggleFaq = (index) => {
-  for (let i = 0; i < faqList.value.length; i++) {
-    if (i !== index) {
-      faqList.value[i].open = false;
-    }
+const openedFaq = ref(null);
+
+const toggleFaq = (faq) => {
+  if (openedFaq.value === faq) {
+    openedFaq.value = null;
+  } else {
+    openedFaq.value = faq;
   }
-
-  faqList.value[index].open = !faqList.value[index].open;
 };
 </script>
