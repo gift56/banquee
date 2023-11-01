@@ -540,6 +540,7 @@ export const compareData = [
 
 export const supportData = [
   {
+    id: "card",
     headingContent: {
       icon: "fa-solid fa-building-lock",
       title: "Cards",
@@ -583,9 +584,47 @@ export const supportData = [
     ],
   },
   {
+    id: "account",
     headingContent: {
       icon: "fa-solid fa-building-lock",
       title: "Account",
+    },
+    faqData: [
+      {
+        id: "01",
+        open: false,
+        question: "How do I verify my account?",
+        answer:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
+      },
+      {
+        id: "02",
+        open: false,
+        question: "How to upgrade my account?",
+        answer:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
+      },
+      {
+        id: "03",
+        open: false,
+        question: "Can I have multiple accounts?",
+        answer:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
+      },
+      {
+        id: "04",
+        open: false,
+        question: "How do I cancel my account?",
+        answer:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
+      },
+    ],
+  },
+  {
+    id: "detail",
+    headingContent: {
+      icon: "fa-solid fa-building-lock",
+      title: "Personal Details",
     },
     faqData: [
       {
