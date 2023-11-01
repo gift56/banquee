@@ -12,4 +12,7 @@
 
 <script setup>
 import { blogData } from "../utils/constant";
+const blogDetail = blogData.find((item) => item.blogid === $route.params.blogId);
+
+console.log(blogDetail);
 </script>
