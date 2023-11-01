@@ -44,7 +44,7 @@
           </div>
           <div class="w-full flex items-center justify-center">
             <div class="flex flex-col gap-2">
-                <h5 class="">Share article</h5>
+                <h5 class="text-base md:text-lg font-medium text-dark font-dm">Share article</h5>
             </div>
           </div>
         </div>
