@@ -21,7 +21,9 @@
             </div>
           </div>
         </div>
-        <div class="w-full grid sm:grid-cols-2 tab:grid-cols-3 gap-x-4 gap-y-10">
+        <div
+          class="w-full grid sm:grid-cols-2 tab:grid-cols-3 gap-x-4 gap-y-10"
+        >
           <RouterLink
             v-for="blog in blogData"
             :key="blog.blogHeadline"
@@ -59,8 +61,8 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router';
-import { blogData } from '../utils/constant';
+import { RouterLink } from "vue-router";
+import { blogData } from "../utils/constant";
 
 const cat = ["All", "Product", "Technology", "App"];
 </script>
