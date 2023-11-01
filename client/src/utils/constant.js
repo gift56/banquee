@@ -424,6 +424,16 @@ export const compareData = [
         checkIcon: "check",
         checkIcon2: "check",
       },
+      {
+        firstContent: {
+          icon: "fa-regular fa-circle-euro",
+          heading: "Contactless Payments",
+          desc: "Diam in arcu cursus euismod",
+        },
+        isOptional: "check",
+        checkIcon: "check",
+        checkIcon2: "check",
+      },
     ],
   },
 ];
