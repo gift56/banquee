@@ -14,7 +14,7 @@
               <div
                 v-for="(item, index) in cat"
                 :key="index"
-                class="w-fit px-2 py-1 bg-navhover rounded cursor-pointer select-none"
+                class="w-fit px-2 py-1 bg-navhover rounded cursor-pointer select-none hover:bg-primary hover:text-white transition-all duration-300"
               >
                 {{ item }}
               </div>
