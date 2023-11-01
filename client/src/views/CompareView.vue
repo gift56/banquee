@@ -93,7 +93,7 @@
                 :key="index"
                 class="border-b border-bordergray w-full py-4 flex items-center justify-between gap-5 select-none"
               >
-                <div class="flex items-center justify-start gap-2">
+                <div class="flex items-center justify-start gap-2 w-full">
                   <span
                     class="w-12 h-12 bg-featureBg flex items-center justify-center rounded-full text-primary"
                     ><i :class="item.firstContent.icon"></i
@@ -110,15 +110,43 @@
                   </div>
                 </div>
 
-                <div class="flex items-center justify-center">
-                  <span class="text-sm font-medium text-dark md:text-base" v-if="item.isOptional !== 'check'">{{
-                    item.isOptional
-                  }}</span>
+                <div class="flex items-center justify-center w-[90%]">
+                  <span
+                    class="text-sm font-medium text-dark md:text-base"
+                    v-if="item.isOptional !== 'check'"
+                    >{{ item.isOptional }}</span
+                  >
                   <img
                     src="../assets/icons/badgeIcon.svg"
                     alt="check"
                     class="w-6 h-6 object-contain"
                     v-if="item.isOptional === 'check'"
+                  />
+                </div>
+                <div class="flex items-center justify-center w-[90%]">
+                  <span
+                    class="text-sm font-medium text-dark md:text-base"
+                    v-if="item.checkIcon !== 'check'"
+                    >{{ item.checkIcon }}</span
+                  >
+                  <img
+                    src="../assets/icons/badgeIcon.svg"
+                    alt="check"
+                    class="w-6 h-6 object-contain"
+                    v-if="item.checkIcon === 'check'"
+                  />
+                </div>
+                <div class="flex items-center justify-center w-[90%]">
+                  <span
+                    class="text-sm font-medium text-dark md:text-base"
+                    v-if="item.checkIcon2 !== 'check'"
+                    >{{ item.checkIcon2 }}</span
+                  >
+                  <img
+                    src="../assets/icons/badgeIcon.svg"
+                    alt="check"
+                    class="w-6 h-6 object-contain"
+                    v-if="item.checkIcon2 === 'check'"
                   />
                 </div>
               </li>
