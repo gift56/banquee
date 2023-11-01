@@ -11,7 +11,7 @@
             <h6 class="text-base font-medium text-dark md:text-xl font-dm">
               Compare Cards
             </h6>
-            <h2 class="headingtext">The ideal card for you</h2>
+            <h2 class="headingtext">The ideal <br class="hidden lg:block"> card for you</h2>
           </div>
           <div class="w-full tab:flex-1"></div>
         </div>

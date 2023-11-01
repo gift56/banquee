@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full bg-white">
+  <section id="pricing" class="w-full bg-white">
     <div class="container">
       <div class="w-full flex flex-col items-center justify-center gap-4 py-16">
         <h6 class="text-base font-medium text-dark md:text-xl font-dm">
