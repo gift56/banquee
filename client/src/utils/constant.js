@@ -630,28 +630,28 @@ export const supportData = [
       {
         id: "01",
         open: false,
-        question: "How do I verify my account?",
+        question: "How do I change my account address?",
         answer:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
       },
       {
         id: "02",
         open: false,
-        question: "How to upgrade my account?",
+        question: "How to close my account?",
         answer:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
       },
       {
         id: "03",
         open: false,
-        question: "Can I have multiple accounts?",
+        question: "Where do I find my tax ID?",
         answer:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
       },
       {
         id: "04",
         open: false,
-        question: "How do I cancel my account?",
+        question: "How can I download my bank documents?",
         answer:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
       },
