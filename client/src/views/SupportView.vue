@@ -75,17 +75,17 @@
               </h4>
               <nav class="flex flex-col items-start justify-start gap-6 w-full">
                 <RouterLink
-                  to="#"
+                  to="#card"
                   class="w-full text-base font-medium text-dark/50 hover:underline"
                   >Cards</RouterLink
                 >
                 <RouterLink
-                  to="#"
+                  to="#account"
                   class="w-full text-base font-medium text-dark/50 hover:underline"
                   >Account</RouterLink
                 >
                 <RouterLink
-                  to="#"
+                  to="#detail"
                   class="w-full text-base font-medium text-dark/50 hover:underline"
                   >Personal Details</RouterLink
                 >
