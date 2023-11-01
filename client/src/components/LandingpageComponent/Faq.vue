@@ -28,7 +28,7 @@
               </div>
             </div>
           </div>
-          <RouterLink to="/" class="group">
+          <RouterLink to="/support" class="group">
             <div class="text-primary flex items-center gap-2">
               Support
               <img
@@ -77,7 +77,6 @@
 </template>
 
 <script setup>
-import { RouterLink } from "vue-router";
 import { ref } from "vue";
 import { faqData } from "../../utils/constant";
 

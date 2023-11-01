@@ -4,7 +4,7 @@
       <div class="w-full flex flex-col items-start justify-start gap-8 py-16">
         <div class="w-full flex items-center justify-between gap-6">
           <h3 class="headingtext2">Blog</h3>
-          <RouterLink to="/" class="group">
+          <RouterLink to="/blog" class="group">
             <div class="text-primary flex items-center gap-2">
               All Articles
               <img
@@ -52,6 +52,5 @@
 </template>
 
 <script setup>
-import { RouterLink } from "vue-router";
 import { blogData } from "../../utils/constant";
 </script>
