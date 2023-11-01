@@ -88,9 +88,13 @@
               </h3>
             </div>
             <ul class="w-full flex flex-col items-start justify-between">
-              <li v-for="(item, index) in itemInfo.data" :key="index" class="border-b border-bordergray w-full py-4">
+              <li
+                v-for="(item, index) in itemInfo.data"
+                :key="index"
+                class="border-b border-bordergray w-full py-4"
+              >
                 <div class="flex items-center justify-start gap-2">
-                  <i :class="item.firstContent.icon"></i>
+                  <span class="w-12 h-12 bg-featureBg flex items-center justify-center rounded-full"><i :class="item.firstContent.icon"></i></span>
                 </div>
               </li>
             </ul>
