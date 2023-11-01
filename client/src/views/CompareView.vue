@@ -102,7 +102,7 @@
                   ></span>
                   <div class="flex flex-col items-start justify-start">
                     <h3
-                      class="text-base font-medium text-dark md:text-lg font-dm"
+                      class="text-base font-medium text-dark md:text-lg font-dm truncate"
                     >
                       {{ item.firstContent.heading }}
                     </h3>
