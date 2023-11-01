@@ -99,8 +99,8 @@
               :id="supportItem.id"
               class="w-full flex flex-col items-start justify-start gap-5"
             >
-              <div class="flex items-center justify-start gap-6">
-                
+              <div class="flex items-center justify-start gap-5">
+
               </div>
             </div>
           </div>
