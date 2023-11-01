@@ -43,7 +43,7 @@
             </p>
           </div>
           <div class="w-full flex items-center justify-center">
-            <div class="flex flex-col gap-2">
+            <div class="flex flex-col gap-2 items-center justify-center">
               <h5 class="text-base md:text-lg font-medium text-dark font-dm">
                 Share article
               </h5>
@@ -51,8 +51,10 @@
                 <div
                   v-for="icon in socialIcons"
                   :key="icon.icon"
-                  class="w-12 h-12 rounded-full bg-navhover"
-                ></div>
+                  class="w-12 h-12 rounded-full bg-navhover flex items-center justify-center"
+                >
+                  <i :class="icon.icon" class="text-xl"></i>
+                </div>
               </div>
             </div>
           </div>
