@@ -42,14 +42,26 @@
         </div>
       </div>
       <div class="w-full hidden tab:flex items-end justify-between gap-6">
-        <img src="@/assets/images/featureHeroCard2.svg" alt="herocard" class="rounded-tr-3xl rounded-tl-3xl" />
+        <img
+          src="@/assets/images/featureHeroCard2.svg"
+          alt="herocard"
+          class="rounded-tr-3xl rounded-tl-3xl"
+        />
         <img
           src="@/assets/images/featureHeroCard3.svg"
           alt="herocard"
           class="tab:hidden lg:inline-block rounded-tr-3xl rounded-tl-3xl"
         />
-        <img src="@/assets/images/featureHeroCard1.svg" alt="herocard" class="rounded-tr-3xl rounded-tl-3xl" />
-        <img src="@/assets/images/featureHeroCard3.svg" alt="herocard" class="rounded-tr-3xl rounded-tl-3xl" />
+        <img
+          src="@/assets/images/featureHeroCard1.svg"
+          alt="herocard"
+          class="rounded-tr-3xl rounded-tl-3xl"
+        />
+        <img
+          src="@/assets/images/featureHeroCard3.svg"
+          alt="herocard"
+          class="rounded-tr-3xl rounded-tl-3xl"
+        />
         <img
           src="@/assets/images/featureHeroCard2.svg"
           alt="herocard"
