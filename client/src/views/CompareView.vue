@@ -94,7 +94,7 @@
                 class="border-b border-bordergray w-full py-4"
               >
                 <div class="flex items-center justify-start gap-2">
-                  <span class="w-12 h-12 bg-featureBg flex items-center justify-center rounded-full"><i :class="item.firstContent.icon"></i></span>
+                  <span class="w-12 h-12 bg-featureBg flex items-center justify-center rounded-full text-primary"><i :class="item.firstContent.icon"></i></span>
                 </div>
               </li>
             </ul>

@@ -426,7 +426,7 @@ export const compareData = [
       },
       {
         firstContent: {
-          icon: "fa-regular fa-circle-euro",
+          icon: "fa-solid fa-euro-sign",
           heading: "Mobile Payments",
           desc: "Diam in arcu cursus euismod",
         },
