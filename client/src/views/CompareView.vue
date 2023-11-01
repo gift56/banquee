@@ -87,6 +87,9 @@
                 {{ itemInfo.title }}
               </h3>
             </div>
+            <ul class="w-full flex items-center justify-between gap-5">
+              <li class="w-full flex "></li>
+            </ul>
           </div>
         </div>
       </div>
