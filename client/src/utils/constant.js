@@ -486,7 +486,7 @@ export const compareData = [
       },
       {
         firstContent: {
-          icon: "fa-solid fa-building-columns",
+          icon: "fa-solid fa-chart-line",
           heading: "Free ATM withdrawls",
           desc: "Diam in arcu cursus euismod",
         },
