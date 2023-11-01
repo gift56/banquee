@@ -66,7 +66,11 @@
     <section class="w-full">
       <div class="container">
         <div class="sectionCon !items-start">
-          <div class="w-full tab:flex-[0.6]"></div>
+          <div class="w-full tab:flex-[0.6]">
+            <div class="w-full flex flex-col items-start justify-start gap-6 p-3 bg-navhover rounded-lg">
+              <h4 class="">Categories</h4>
+            </div>
+          </div>
           <div class="w-full tab:flex-[2]"></div>
         </div>
       </div>
