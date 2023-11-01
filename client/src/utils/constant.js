@@ -401,6 +401,8 @@ export const compareData = [
           desc: "Diam in arcu cursus euismod",
         },
         isOptional: "Optional",
+        checkIcon: "check",
+        checkIcon2: "check",
       },
     ],
   },
