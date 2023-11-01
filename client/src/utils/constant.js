@@ -544,6 +544,14 @@ export const supportData = [
       icon: "fa-solid fa-building-lock",
       title: "Cards",
     },
-    
+    faqData: [
+      {
+        id: "01",
+        open: false,
+        question: "How to setup my card?",
+        answer:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
+      },
+    ],
   },
 ];
