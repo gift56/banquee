@@ -87,8 +87,12 @@
                 {{ itemInfo.title }}
               </h3>
             </div>
-            <ul class="w-full flex items-center justify-between gap-5">
-              <li></li>
+            <ul class="w-full flex flex-col items-start justify-between">
+              <li v-for="(item, index) in itemInfo.data" :key="index" class="border-b border-bordergray w-full py-4">
+                <div class="flex items-center justify-start gap-2">
+                  <i :class="item.firstContent.icon"></i>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
