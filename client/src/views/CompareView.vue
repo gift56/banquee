@@ -77,7 +77,13 @@
     <section class="w-full">
       <div class="container">
         <div class="w-full flex flex-col items-start justify-start gap-8">
-          
+          <div
+            v-for="(itemInfo, index) in compareData"
+            :key="index"
+            class="w-full flex flex-col items-start justify-start gap-3"
+          >
+            <h3></h3>
+          </div>
         </div>
       </div>
     </section>
@@ -85,5 +91,5 @@
 </template>
 
 <script setup>
-import { featurePricingData } from "../utils/constant";
+import { compareData, featurePricingData } from "../utils/constant";
 </script>
