@@ -159,9 +159,12 @@
     </section>
     <section class="w-full mt-5">
       <div class="container">
-        <div class="w-full grid grid-cols-4 items-start justify-start gap-6 bg-primary text-primary py-10 px-5 rounded-lg">
+        <div
+          class="w-full grid grid-cols-4 items-start justify-start gap-6 bg-primary text-white py-10 px-5 rounded-lg"
+        >
           <div class="flex flex-col items-start justify-start">
-
+            <h3 class="text-lg font-medium md:text-2xl">Still have questions?</h3>
+            <p class="text-base font-medium opacity-70">We are here to help.</p>
           </div>
           <div></div>
           <div></div>
