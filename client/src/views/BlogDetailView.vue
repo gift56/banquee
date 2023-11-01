@@ -1,11 +1,11 @@
 <template>
-  <main class="w-full">
-
+  <main>
+    <section class="w-full">
+      <div class="container">
+        <div></div>
+      </div>
+    </section>
   </main>
 </template>
 
-<script>
-
-</script>
-
-
+<script></script>
