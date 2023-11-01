@@ -417,12 +417,12 @@ export const compareData = [
       {
         firstContent: {
           icon: "fa-solid fa-wifi",
-          heading: "Visual Card",
+          heading: "Contactless Payments",
           desc: "Diam in arcu cursus euismod",
         },
-        isOptional: "-",
-        checkIcon: "Up to 2",
-        checkIcon2: "Unlimited",
+        isOptional: "check",
+        checkIcon: "check",
+        checkIcon2: "check",
       },
     ],
   },
