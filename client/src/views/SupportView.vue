@@ -92,7 +92,9 @@
               </nav>
             </div>
           </div>
-          <div class="w-full tab:flex-[2] flex flex-col items-start justify-start gap-10">
+          <div
+            class="w-full tab:flex-[2] flex flex-col items-start justify-start gap-10"
+          >
             <div
               v-for="supportItem in supportData"
               :key="supportItem.id"
@@ -105,6 +107,7 @@
                 >
                   <i :class="supportItem.headingContent.icon"></i>
                 </span>
+                <h3 class="">{{ supportItem.headingContent.title }}</h3>
               </div>
             </div>
           </div>
