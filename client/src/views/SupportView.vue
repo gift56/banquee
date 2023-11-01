@@ -157,7 +157,7 @@
 import { RouterLink } from "vue-router";
 import { supportData } from "../utils/constant";
 
-const toggleFaq = (faqList, index) => {
+const toggleFaq = (index) => {
   for (let i = 0; i < faqList.value.length; i++) {
     if (i !== index) {
       faqList.value[i].open = false;
