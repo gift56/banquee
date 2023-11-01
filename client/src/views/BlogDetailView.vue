@@ -48,9 +48,11 @@
                 Share article
               </h5>
               <div class="flex items-center justify-center gap-5">
-                <div v-for="icon in socialIcons" :key="item.icon">
-                
-                </div>
+                <div
+                  v-for="icon in socialIcons"
+                  :key="icon.icon"
+                  class="w-12 h-12 rounded-full bg-navhover"
+                ></div>
               </div>
             </div>
           </div>
