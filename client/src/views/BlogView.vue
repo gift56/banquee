@@ -6,6 +6,9 @@
         <div class="flex flex-col items-start justify-start gap-4 w-full">
           <div class="flex items-center justify-start gap-5">
             <h4 class="text-base font-medium text-dark md:text-lg font-dm">Categories</h4>
+            <div class="flex items-center justify-start gap-4">
+              
+            </div>
           </div>
         </div>
       </div>
