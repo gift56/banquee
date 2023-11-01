@@ -21,6 +21,9 @@ import partnerImage10 from "../assets/icons/partner10Icon.svg";
 import blogImage1 from "../assets/images/blogImage1.png";
 import blogImage2 from "../assets/images/blogImage2.png";
 import blogImage3 from "../assets/images/blogImage3.png";
+import blogImage4 from "../assets/images/blogImage4.png";
+import blogImage5 from "../assets/images/blogImage5.png";
+import blogImage6 from "../assets/images/blogImage6.png";
 import cardImage1 from "../assets/images/card1.svg";
 import cardImage2 from "../assets/images/card2.svg";
 import cardImage3 from "../assets/images/card3.svg";
@@ -282,21 +285,21 @@ export const blogData = [
     cat: ["Product", "Technology"],
   },
   {
-    blogImage: blogImage1,
+    blogImage: blogImage4,
     blogHeadline: "Why We Love Banko (And You Should, Too!)",
     detail:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.",
     cat: ["Product", "Technology"],
   },
   {
-    blogImage: blogImage2,
+    blogImage: blogImage5,
     blogHeadline: "5 Principles Of Crypto Investing",
     detail:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.",
     cat: ["Product", "Technology"],
   },
   {
-    blogImage: blogImage3,
+    blogImage: blogImage6,
     blogHeadline: "7 Things About Banko Your Friends Want To Know",
     detail:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.",
