@@ -46,8 +46,9 @@
             v-for="link in navLinks"
             :key="link.text"
             :to="link.href"
+            @click="toggleMenu"
             class="text-base font-medium text-dark"
-            :class="{ 'underline': link.href === $route.path }"
+            :class="{ underline: link.href === $route.path }"
             >{{ link.text }}</RouterLink
           >
           <RouterLink to="/" class="text-lg font-medium text-primary font-dm"
