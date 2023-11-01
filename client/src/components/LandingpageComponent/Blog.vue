@@ -17,7 +17,7 @@
         </div>
         <div class="w-full grid sm:grid-cols-2 tab:grid-cols-3 gap-4">
           <div
-            v-for="blog in blogData"
+            v-for="blog in blogData.slice(0, 3)"
             :key="blog.blogHeadline"
             class="w-full flex flex-col items-start justify-start gap-4"
           >
